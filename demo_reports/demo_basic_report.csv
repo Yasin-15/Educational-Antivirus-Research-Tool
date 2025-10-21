@@ -1,0 +1,10 @@
+Scan ID,Start Time,End Time,Duration (seconds),Files Scanned,Detections Found,Errors,Status,Detection File Path,Detection Type,Threat Name,Risk Score,Signature ID,Detection Time
+
+demo-scan-001,2025-10-21T22:28:25.573169,2025-10-21T22:33:25.573169,300.0,10,1,0,completed,test_samples/eicar.txt,signature,EICAR,2,EICAR-TEST-001,2025-10-21T22:29:25.573169
+
+demo-scan-002,2025-10-21T23:28:25.573169,2025-10-21T23:36:25.573169,480.0,25,2,0,completed,samples/high_entropy_test.bin,behavioral,High Entropy Content,7,,2025-10-21T23:31:25.573169
+
+demo-scan-002,2025-10-21T23:28:25.573169,2025-10-21T23:36:25.573169,480.0,25,2,0,completed,samples/test_script.bat,behavioral,Suspicious File Extension,6,,2025-10-21T23:33:25.573169
+
+demo-scan-003,2025-10-21T23:58:25.573169,2025-10-22T00:03:25.573169,300.0,15,0,0,completed,,,,,,
+

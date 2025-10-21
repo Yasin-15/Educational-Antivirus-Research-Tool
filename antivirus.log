@@ -48,3 +48,243 @@
 2025-10-22 00:04:30,591 - educational_antivirus.core.threat_handler - INFO - Set 2 batch decision rules
 2025-10-22 00:04:30,592 - educational_antivirus.core.threat_handler - INFO - Set default action to quarantine
 2025-10-22 00:04:30,594 - educational_antivirus.core.threat_handler - INFO - Batch decision for /test/eicar_sample.txt: quarantine (pattern: eicar)
+2025-10-22 00:12:11,776 - educational_antivirus.core.scan_engine - INFO - ScanEngine initialized
+2025-10-22 00:12:11,776 - educational_antivirus.core.scan_engine - INFO - Initializing signature detection engine...
+2025-10-22 00:12:11,939 - educational_antivirus.detection.signature_database - INFO - Signature database initialized at data\signatures.db
+2025-10-22 00:12:11,940 - educational_antivirus.detection.signature_engine - INFO - Loading default educational signatures...
+2025-10-22 00:12:12,029 - educational_antivirus.detection.signature_database - INFO - Added signature: eicar_standard
+2025-10-22 00:12:12,134 - educational_antivirus.detection.signature_database - INFO - Added signature: suspicious_autorun
+2025-10-22 00:12:12,226 - educational_antivirus.detection.signature_database - INFO - Added signature: batch_file_suspicious
+2025-10-22 00:12:12,318 - educational_antivirus.detection.signature_database - INFO - Added signature: educational_trojan_sim
+2025-10-22 00:12:12,411 - educational_antivirus.detection.signature_database - INFO - Added signature: educational_worm_sim
+2025-10-22 00:12:12,510 - educational_antivirus.detection.signature_database - INFO - Added signature: registry_startup_mod
+2025-10-22 00:12:12,611 - educational_antivirus.detection.signature_database - INFO - Added signature: powershell_encoded
+2025-10-22 00:12:12,710 - educational_antivirus.detection.signature_database - INFO - Added signature: suspicious_url_pattern
+2025-10-22 00:12:12,810 - educational_antivirus.detection.signature_database - INFO - Added signature: extension_spoofing
+2025-10-22 00:12:12,908 - educational_antivirus.detection.signature_database - INFO - Added signature: educational_virus_sim
+2025-10-22 00:12:12,911 - educational_antivirus.detection.signature_engine - INFO - Loaded 10 signatures for pattern matching
+2025-10-22 00:12:12,912 - educational_antivirus.detection.signature_engine - INFO - Signature engine initialized with 10 signatures
+2025-10-22 00:12:12,912 - educational_antivirus.core.scan_engine - INFO - Initializing behavioral analysis engine...
+2025-10-22 00:12:12,914 - educational_antivirus.core.scan_engine - INFO - Initializing quarantine manager...
+2025-10-22 00:12:12,917 - educational_antivirus.core.scan_engine - INFO - ScanEngine initialization completed successfully
+2025-10-22 00:12:12,919 - educational_antivirus.core.scan_engine - INFO - Starting scan of path: samples
+2025-10-22 00:12:12,927 - educational_antivirus.core.scan_engine - INFO - Found 11 files to scan in samples
+2025-10-22 00:12:13,352 - educational_antivirus.core.scan_engine - ERROR - Error scanning file samples\cli_test_eicar.txt: Error extracting metadata from samples\cli_test_eicar.txt: Error reading file samples\cli_test_eicar.txt: [Errno 22] Invalid argument: 'samples\\cli_test_eicar.txt'
+2025-10-22 00:12:13,355 - educational_antivirus.core.scan_engine - WARNING - Error scanning samples\cli_test_eicar.txt: Error extracting metadata from samples\cli_test_eicar.txt: Error reading file samples\cli_test_eicar.txt: [Errno 22] Invalid argument: 'samples\\cli_test_eicar.txt'
+2025-10-22 00:12:13,393 - educational_antivirus.detection.pattern_matcher - INFO - Found 1 matches for signature 'EICAR Standard Test' in samples\sample_generator.py
+2025-10-22 00:12:13,396 - educational_antivirus.detection.pattern_matcher - INFO - Found 6 matches for signature 'Suspicious Batch Commands' in samples\sample_generator.py
+2025-10-22 00:12:13,397 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_generator.py
+2025-10-22 00:12:13,400 - educational_antivirus.detection.signature_engine - INFO - Detection: EICAR Standard Test in samples\sample_generator.py
+2025-10-22 00:12:13,405 - educational_antivirus.detection.pattern_matcher - INFO - Found 17 matches for signature 'Suspicious Batch Commands' in samples\sample_cli.py
+2025-10-22 00:12:13,413 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_generator.py
+2025-10-22 00:12:13,417 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_cli.py
+2025-10-22 00:12:13,424 - educational_antivirus.detection.pattern_matcher - INFO - Found 16 matches for signature 'Suspicious Batch Commands' in samples\sample_manager.py
+2025-10-22 00:12:13,428 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_generator.py
+2025-10-22 00:12:13,428 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_cli.py
+2025-10-22 00:12:13,431 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_manager.py
+2025-10-22 00:12:13,434 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_generator.py
+2025-10-22 00:12:13,439 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_cli.py
+2025-10-22 00:12:13,442 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_manager.py
+2025-10-22 00:12:13,444 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_generator.py
+2025-10-22 00:12:13,449 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_cli.py
+2025-10-22 00:12:13,451 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_manager.py
+2025-10-22 00:12:13,456 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_manager.py
+2025-10-22 00:12:13,455 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_cli.py
+2025-10-22 00:12:13,455 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_generator.py
+2025-10-22 00:12:13,457 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_manager.py
+2025-10-22 00:12:13,461 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_cli.py
+2025-10-22 00:12:13,482 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_cli.py
+2025-10-22 00:12:13,490 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_cli.py
+2025-10-22 00:12:13,473 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_manager.py
+2025-10-22 00:12:13,497 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_cli.py
+2025-10-22 00:12:13,497 - educational_antivirus.detection.pattern_matcher - INFO - Found 1 matches for signature 'EICAR Standard Test' in samples\__pycache__\sample_generator.cpython-312.pyc
+2025-10-22 00:12:13,497 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_manager.py
+2025-10-22 00:12:13,498 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_cli.py
+2025-10-22 00:12:13,504 - educational_antivirus.detection.pattern_matcher - INFO - Found 2 matches for signature 'Suspicious Batch Commands' in samples\__pycache__\sample_generator.cpython-312.pyc
+2025-10-22 00:12:13,506 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_manager.py
+2025-10-22 00:12:13,506 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_cli.py
+2025-10-22 00:12:13,508 - educational_antivirus.detection.signature_engine - INFO - Detection: EICAR Standard Test in samples\__pycache__\sample_generator.cpython-312.pyc
+2025-10-22 00:12:13,513 - educational_antivirus.detection.pattern_matcher - INFO - Found 7 matches for signature 'Suspicious Batch Commands' in samples\__pycache__\sample_cli.cpython-312.pyc
+2025-10-22 00:12:13,513 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_manager.py
+2025-10-22 00:12:13,516 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_cli.py
+2025-10-22 00:12:13,535 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\__pycache__\sample_generator.cpython-312.pyc
+2025-10-22 00:12:13,546 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\__pycache__\sample_cli.cpython-312.pyc
+2025-10-22 00:12:13,548 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_manager.py
+2025-10-22 00:12:13,548 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_cli.py
+2025-10-22 00:12:13,551 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\__pycache__\sample_generator.cpython-312.pyc
+2025-10-22 00:12:13,552 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_cli.py
+2025-10-22 00:12:13,552 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_manager.py
+2025-10-22 00:12:13,551 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\__pycache__\sample_cli.cpython-312.pyc
+2025-10-22 00:12:13,554 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_cli.py
+2025-10-22 00:12:13,555 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_manager.py
+2025-10-22 00:12:13,557 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\__pycache__\sample_cli.cpython-312.pyc
+2025-10-22 00:12:13,563 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_cli.py
+2025-10-22 00:12:13,564 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_manager.py
+2025-10-22 00:12:13,565 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\__pycache__\sample_cli.cpython-312.pyc
+2025-10-22 00:12:13,566 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_cli.py
+2025-10-22 00:12:13,566 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_manager.py
+2025-10-22 00:12:13,567 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\__pycache__\sample_cli.cpython-312.pyc
+2025-10-22 00:12:13,574 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_manager.py
+2025-10-22 00:12:13,575 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\sample_manager.py
+2025-10-22 00:12:13,575 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\__pycache__\sample_cli.cpython-312.pyc
+2025-10-22 00:12:13,589 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\__pycache__\sample_cli.cpython-312.pyc
+2025-10-22 00:12:13,594 - educational_antivirus.detection.pattern_matcher - INFO - Found 10 matches for signature 'Suspicious Batch Commands' in samples\__pycache__\sample_manager.cpython-312.pyc
+2025-10-22 00:12:13,599 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\__pycache__\sample_manager.cpython-312.pyc
+2025-10-22 00:12:13,601 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\__pycache__\sample_manager.cpython-312.pyc
+2025-10-22 00:12:13,601 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\__pycache__\sample_manager.cpython-312.pyc
+2025-10-22 00:12:13,604 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\__pycache__\sample_manager.cpython-312.pyc
+2025-10-22 00:12:13,604 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\__pycache__\sample_manager.cpython-312.pyc
+2025-10-22 00:12:13,606 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\__pycache__\sample_manager.cpython-312.pyc
+2025-10-22 00:12:13,609 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\__pycache__\sample_manager.cpython-312.pyc
+2025-10-22 00:12:13,611 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\__pycache__\sample_manager.cpython-312.pyc
+2025-10-22 00:12:13,612 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\__pycache__\sample_manager.cpython-312.pyc
+2025-10-22 00:12:13,613 - educational_antivirus.detection.signature_engine - INFO - Detection: Suspicious Batch Commands in samples\__pycache__\sample_manager.cpython-312.pyc
+2025-10-22 00:12:13,624 - educational_antivirus.core.scan_engine - INFO - Scan completed: 61 detections in 11 files
+2025-10-22 00:12:13,633 - educational_antivirus.core.scan_engine - INFO - File quarantined: samples\sample_generator.py -> 7ae58d6a-86f4-4c46-b1d8-b02b319f270a
+2025-10-22 00:12:13,644 - educational_antivirus.core.scan_engine - INFO - Threat ignored: samples\sample_generator.py
+2025-10-22 00:12:13,660 - educational_antivirus.core.scan_engine - INFO - Threat ignored: samples\sample_generator.py
+2025-10-22 00:12:13,666 - educational_antivirus.core.scan_engine - INFO - Threat ignored: samples\sample_generator.py
+2025-10-22 00:12:13,668 - educational_antivirus.core.scan_engine - INFO - Threat ignored: samples\sample_generator.py
+2025-10-22 00:12:13,680 - educational_antivirus.core.scan_engine - INFO - Threat ignored: samples\sample_generator.py
+2025-10-22 00:12:13,683 - educational_antivirus.core.scan_engine - INFO - Threat ignored: samples\sample_generator.py
+2025-10-22 00:12:13,683 - educational_antivirus.core.scan_engine - INFO - Threat ignored: samples\__pycache__\sample_generator.cpython-312.pyc
+2025-10-22 00:12:13,729 - educational_antivirus.core.scan_engine - INFO - File quarantined: samples\__pycache__\sample_generator.cpython-312.pyc -> ed063f77-8680-4aa8-b908-a6d808e1133b
+2025-10-22 00:12:13,731 - educational_antivirus.core.scan_engine - ERROR - Failed to execute quarantine for samples\__pycache__\sample_generator.cpython-312.pyc: Source file does not exist: samples\__pycache__\sample_generator.cpython-312.pyc
+2025-10-22 00:12:13,733 - educational_antivirus.core.scan_engine - ERROR - Failed to process detection samples\__pycache__\sample_generator.cpython-312.pyc: Source file does not exist: samples\__pycache__\sample_generator.cpython-312.pyc
+2025-10-22 00:12:13,781 - educational_antivirus.core.scan_engine - INFO - File quarantined: samples\sample_cli.py -> c0c7654f-cd83-44d4-b5e2-264975c62c79
+2025-10-22 00:12:13,784 - educational_antivirus.core.scan_engine - INFO - Threat ignored: samples\sample_cli.py
+2025-10-22 00:12:13,795 - educational_antivirus.core.scan_engine - ERROR - Failed to execute quarantine for samples\sample_cli.py: Source file does not exist: samples\sample_cli.py
+2025-10-22 00:12:13,796 - educational_antivirus.core.scan_engine - ERROR - Failed to process detection samples\sample_cli.py: Source file does not exist: samples\sample_cli.py
+2025-10-22 00:12:13,809 - educational_antivirus.core.scan_engine - INFO - Threat ignored: samples\sample_cli.py
+2025-10-22 00:12:13,811 - educational_antivirus.core.scan_engine - ERROR - Failed to execute quarantine for samples\sample_cli.py: Source file does not exist: samples\sample_cli.py
+2025-10-22 00:12:13,813 - educational_antivirus.core.scan_engine - ERROR - Failed to process detection samples\sample_cli.py: Source file does not exist: samples\sample_cli.py
+2025-10-22 00:12:13,814 - educational_antivirus.core.scan_engine - ERROR - Failed to execute quarantine for samples\sample_cli.py: Source file does not exist: samples\sample_cli.py
+2025-10-22 00:12:13,816 - educational_antivirus.core.scan_engine - ERROR - Failed to process detection samples\sample_cli.py: Source file does not exist: samples\sample_cli.py
+2025-10-22 00:12:13,817 - educational_antivirus.core.scan_engine - INFO - Threat ignored: samples\sample_cli.py
+2025-10-22 00:12:13,817 - educational_antivirus.core.scan_engine - INFO - Threat ignored: samples\sample_cli.py
+2025-10-22 00:12:13,818 - educational_antivirus.core.scan_engine - ERROR - Failed to execute quarantine for samples\sample_cli.py: Source file does not exist: samples\sample_cli.py
+2025-10-22 00:12:13,818 - educational_antivirus.core.scan_engine - ERROR - Failed to process detection samples\sample_cli.py: Source file does not exist: samples\sample_cli.py
+2025-10-22 00:12:13,824 - educational_antivirus.core.scan_engine - INFO - Threat ignored: samples\sample_cli.py
+2025-10-22 00:12:13,825 - educational_antivirus.core.scan_engine - ERROR - Failed to execute quarantine for samples\sample_cli.py: Source file does not exist: samples\sample_cli.py
+2025-10-22 00:12:13,826 - educational_antivirus.core.scan_engine - ERROR - Failed to process detection samples\sample_cli.py: Source file does not exist: samples\sample_cli.py
+2025-10-22 00:12:13,826 - educational_antivirus.core.scan_engine - ERROR - Failed to execute quarantine for samples\sample_cli.py: Source file does not exist: samples\sample_cli.py
+2025-10-22 00:12:13,827 - educational_antivirus.core.scan_engine - ERROR - Failed to process detection samples\sample_cli.py: Source file does not exist: samples\sample_cli.py
+2025-10-22 00:12:13,828 - educational_antivirus.core.scan_engine - ERROR - Failed to execute quarantine for samples\sample_cli.py: Source file does not exist: samples\sample_cli.py
+2025-10-22 00:12:13,828 - educational_antivirus.core.scan_engine - ERROR - Failed to process detection samples\sample_cli.py: Source file does not exist: samples\sample_cli.py
+2025-10-22 00:12:13,829 - educational_antivirus.core.scan_engine - ERROR - Failed to execute quarantine for samples\sample_cli.py: Source file does not exist: samples\sample_cli.py
+2025-10-22 00:12:13,829 - educational_antivirus.core.scan_engine - ERROR - Failed to process detection samples\sample_cli.py: Source file does not exist: samples\sample_cli.py
+2025-10-22 00:12:13,830 - educational_antivirus.core.scan_engine - ERROR - Failed to execute quarantine for samples\sample_cli.py: Source file does not exist: samples\sample_cli.py
+2025-10-22 00:12:13,831 - educational_antivirus.core.scan_engine - ERROR - Failed to process detection samples\sample_cli.py: Source file does not exist: samples\sample_cli.py
+2025-10-22 00:12:13,831 - educational_antivirus.core.scan_engine - ERROR - Failed to execute quarantine for samples\sample_cli.py: Source file does not exist: samples\sample_cli.py
+2025-10-22 00:12:13,832 - educational_antivirus.core.scan_engine - ERROR - Failed to process detection samples\sample_cli.py: Source file does not exist: samples\sample_cli.py
+2025-10-22 00:12:13,833 - educational_antivirus.core.scan_engine - ERROR - Failed to execute quarantine for samples\sample_cli.py: Source file does not exist: samples\sample_cli.py
+2025-10-22 00:12:13,833 - educational_antivirus.core.scan_engine - ERROR - Failed to process detection samples\sample_cli.py: Source file does not exist: samples\sample_cli.py
+2025-10-22 00:12:13,883 - educational_antivirus.core.scan_engine - INFO - File quarantined: samples\sample_manager.py -> e540d9df-9a09-48cb-97b6-1a2c5a8d8021
+2025-10-22 00:12:13,885 - educational_antivirus.core.scan_engine - ERROR - Failed to execute quarantine for samples\sample_manager.py: Source file does not exist: samples\sample_manager.py
+2025-10-22 00:12:13,892 - educational_antivirus.core.scan_engine - ERROR - Failed to process detection samples\sample_manager.py: Source file does not exist: samples\sample_manager.py
+2025-10-22 00:12:13,893 - educational_antivirus.core.scan_engine - ERROR - Failed to execute quarantine for samples\sample_manager.py: Source file does not exist: samples\sample_manager.py
+2025-10-22 00:12:13,893 - educational_antivirus.core.scan_engine - ERROR - Failed to process detection samples\sample_manager.py: Source file does not exist: samples\sample_manager.py
+2025-10-22 00:12:13,895 - educational_antivirus.core.scan_engine - INFO - Threat ignored: samples\sample_manager.py
+2025-10-22 00:12:13,895 - educational_antivirus.core.scan_engine - INFO - Threat ignored: samples\sample_manager.py
+2025-10-22 00:12:13,896 - educational_antivirus.core.scan_engine - ERROR - Failed to execute quarantine for samples\sample_manager.py: Source file does not exist: samples\sample_manager.py
+2025-10-22 00:12:13,896 - educational_antivirus.core.scan_engine - ERROR - Failed to process detection samples\sample_manager.py: Source file does not exist: samples\sample_manager.py
+2025-10-22 00:12:13,897 - educational_antivirus.core.scan_engine - INFO - Threat ignored: samples\sample_manager.py
+2025-10-22 00:12:13,897 - educational_antivirus.core.scan_engine - ERROR - Failed to execute quarantine for samples\sample_manager.py: Source file does not exist: samples\sample_manager.py
+2025-10-22 00:12:13,898 - educational_antivirus.core.scan_engine - ERROR - Failed to process detection samples\sample_manager.py: Source file does not exist: samples\sample_manager.py
+2025-10-22 00:12:13,898 - educational_antivirus.core.scan_engine - INFO - Threat ignored: samples\sample_manager.py
+2025-10-22 00:12:13,899 - educational_antivirus.core.scan_engine - ERROR - Failed to execute quarantine for samples\sample_manager.py: Source file does not exist: samples\sample_manager.py
+2025-10-22 00:12:13,900 - educational_antivirus.core.scan_engine - ERROR - Failed to process detection samples\sample_manager.py: Source file does not exist: samples\sample_manager.py
+2025-10-22 00:12:13,900 - educational_antivirus.core.scan_engine - INFO - Threat ignored: samples\sample_manager.py
+2025-10-22 00:12:13,901 - educational_antivirus.core.scan_engine - ERROR - Failed to execute quarantine for samples\sample_manager.py: Source file does not exist: samples\sample_manager.py
+2025-10-22 00:12:13,902 - educational_antivirus.core.scan_engine - ERROR - Failed to process detection samples\sample_manager.py: Source file does not exist: samples\sample_manager.py
+2025-10-22 00:12:13,909 - educational_antivirus.core.scan_engine - ERROR - Failed to execute quarantine for samples\sample_manager.py: Source file does not exist: samples\sample_manager.py
+2025-10-22 00:12:13,910 - educational_antivirus.core.scan_engine - ERROR - Failed to process detection samples\sample_manager.py: Source file does not exist: samples\sample_manager.py
+2025-10-22 00:12:13,911 - educational_antivirus.core.scan_engine - INFO - Threat ignored: samples\sample_manager.py
+2025-10-22 00:12:13,911 - educational_antivirus.core.scan_engine - INFO - Threat ignored: samples\sample_manager.py
+2025-10-22 00:12:13,912 - educational_antivirus.core.scan_engine - INFO - Threat ignored: samples\sample_manager.py
+2025-10-22 00:12:13,950 - educational_antivirus.core.scan_engine - INFO - File quarantined: samples\__pycache__\sample_cli.cpython-312.pyc -> f05eb36e-1e77-44c9-a118-b1b69581c7ab
+2025-10-22 00:12:13,951 - educational_antivirus.core.scan_engine - ERROR - Failed to execute quarantine for samples\__pycache__\sample_cli.cpython-312.pyc: Source file does not exist: samples\__pycache__\sample_cli.cpython-312.pyc
+2025-10-22 00:12:13,952 - educational_antivirus.core.scan_engine - ERROR - Failed to process detection samples\__pycache__\sample_cli.cpython-312.pyc: Source file does not exist: samples\__pycache__\sample_cli.cpython-312.pyc
+2025-10-22 00:12:13,959 - educational_antivirus.core.scan_engine - ERROR - Failed to execute quarantine for samples\__pycache__\sample_cli.cpython-312.pyc: Source file does not exist: samples\__pycache__\sample_cli.cpython-312.pyc
+2025-10-22 00:12:13,959 - educational_antivirus.core.scan_engine - ERROR - Failed to process detection samples\__pycache__\sample_cli.cpython-312.pyc: Source file does not exist: samples\__pycache__\sample_cli.cpython-312.pyc
+2025-10-22 00:12:13,961 - educational_antivirus.core.scan_engine - ERROR - Failed to execute quarantine for samples\__pycache__\sample_cli.cpython-312.pyc: Source file does not exist: samples\__pycache__\sample_cli.cpython-312.pyc
+2025-10-22 00:12:13,962 - educational_antivirus.core.scan_engine - ERROR - Failed to process detection samples\__pycache__\sample_cli.cpython-312.pyc: Source file does not exist: samples\__pycache__\sample_cli.cpython-312.pyc
+2025-10-22 00:12:13,962 - educational_antivirus.core.scan_engine - ERROR - Failed to execute quarantine for samples\__pycache__\sample_cli.cpython-312.pyc: Source file does not exist: samples\__pycache__\sample_cli.cpython-312.pyc
+2025-10-22 00:12:13,963 - educational_antivirus.core.scan_engine - ERROR - Failed to process detection samples\__pycache__\sample_cli.cpython-312.pyc: Source file does not exist: samples\__pycache__\sample_cli.cpython-312.pyc
+2025-10-22 00:12:13,964 - educational_antivirus.core.scan_engine - ERROR - Failed to execute quarantine for samples\__pycache__\sample_cli.cpython-312.pyc: Source file does not exist: samples\__pycache__\sample_cli.cpython-312.pyc
+2025-10-22 00:12:13,964 - educational_antivirus.core.scan_engine - ERROR - Failed to process detection samples\__pycache__\sample_cli.cpython-312.pyc: Source file does not exist: samples\__pycache__\sample_cli.cpython-312.pyc
+2025-10-22 00:12:13,965 - educational_antivirus.core.scan_engine - ERROR - Failed to execute quarantine for samples\__pycache__\sample_cli.cpython-312.pyc: Source file does not exist: samples\__pycache__\sample_cli.cpython-312.pyc
+2025-10-22 00:12:13,967 - educational_antivirus.core.scan_engine - ERROR - Failed to process detection samples\__pycache__\sample_cli.cpython-312.pyc: Source file does not exist: samples\__pycache__\sample_cli.cpython-312.pyc
+2025-10-22 00:12:14,024 - educational_antivirus.core.scan_engine - INFO - File quarantined: samples\__pycache__\__init__.cpython-312.pyc -> 6e42c2a1-fb55-4652-ab23-17de05797b50
+2025-10-22 00:12:14,064 - educational_antivirus.core.scan_engine - INFO - File quarantined: samples\__pycache__\sample_manager.cpython-312.pyc -> 36086586-1c95-401a-a21b-09c579c5667f
+2025-10-22 00:12:14,064 - educational_antivirus.core.scan_engine - INFO - Threat ignored: samples\__pycache__\sample_manager.cpython-312.pyc
+2025-10-22 00:12:14,065 - educational_antivirus.core.scan_engine - INFO - Threat ignored: samples\__pycache__\sample_manager.cpython-312.pyc
+2025-10-22 00:12:14,065 - educational_antivirus.core.scan_engine - ERROR - Failed to execute quarantine for samples\__pycache__\sample_manager.cpython-312.pyc: Source file does not exist: samples\__pycache__\sample_manager.cpython-312.pyc
+2025-10-22 00:12:14,066 - educational_antivirus.core.scan_engine - ERROR - Failed to process detection samples\__pycache__\sample_manager.cpython-312.pyc: Source file does not exist: samples\__pycache__\sample_manager.cpython-312.pyc
+2025-10-22 00:12:14,066 - educational_antivirus.core.scan_engine - INFO - Threat ignored: samples\__pycache__\sample_manager.cpython-312.pyc
+2025-10-22 00:12:14,067 - educational_antivirus.core.scan_engine - ERROR - Failed to execute quarantine for samples\__pycache__\sample_manager.cpython-312.pyc: Source file does not exist: samples\__pycache__\sample_manager.cpython-312.pyc
+2025-10-22 00:12:14,067 - educational_antivirus.core.scan_engine - ERROR - Failed to process detection samples\__pycache__\sample_manager.cpython-312.pyc: Source file does not exist: samples\__pycache__\sample_manager.cpython-312.pyc
+2025-10-22 00:12:14,068 - educational_antivirus.core.scan_engine - ERROR - Failed to execute quarantine for samples\__pycache__\sample_manager.cpython-312.pyc: Source file does not exist: samples\__pycache__\sample_manager.cpython-312.pyc
+2025-10-22 00:12:14,068 - educational_antivirus.core.scan_engine - ERROR - Failed to process detection samples\__pycache__\sample_manager.cpython-312.pyc: Source file does not exist: samples\__pycache__\sample_manager.cpython-312.pyc
+2025-10-22 00:12:14,073 - educational_antivirus.core.scan_engine - ERROR - Failed to execute quarantine for samples\__pycache__\sample_manager.cpython-312.pyc: Source file does not exist: samples\__pycache__\sample_manager.cpython-312.pyc
+2025-10-22 00:12:14,076 - educational_antivirus.core.scan_engine - ERROR - Failed to process detection samples\__pycache__\sample_manager.cpython-312.pyc: Source file does not exist: samples\__pycache__\sample_manager.cpython-312.pyc
+2025-10-22 00:12:14,076 - educational_antivirus.core.scan_engine - ERROR - Failed to execute quarantine for samples\__pycache__\sample_manager.cpython-312.pyc: Source file does not exist: samples\__pycache__\sample_manager.cpython-312.pyc
+2025-10-22 00:12:14,077 - educational_antivirus.core.scan_engine - ERROR - Failed to process detection samples\__pycache__\sample_manager.cpython-312.pyc: Source file does not exist: samples\__pycache__\sample_manager.cpython-312.pyc
+2025-10-22 00:12:14,078 - educational_antivirus.core.scan_engine - ERROR - Failed to execute quarantine for samples\__pycache__\sample_manager.cpython-312.pyc: Source file does not exist: samples\__pycache__\sample_manager.cpython-312.pyc
+2025-10-22 00:12:14,078 - educational_antivirus.core.scan_engine - ERROR - Failed to process detection samples\__pycache__\sample_manager.cpython-312.pyc: Source file does not exist: samples\__pycache__\sample_manager.cpython-312.pyc
+2025-10-22 00:12:14,079 - educational_antivirus.core.scan_engine - INFO - Integrated scan completed: 61 threats processed
+2025-10-22 00:12:14,113 - educational_antivirus.detection.signature_engine - INFO - Signature engine closed
+2025-10-22 00:12:14,113 - educational_antivirus.core.scan_engine - INFO - ScanEngine closed
+2025-10-22 00:12:34,171 - educational_antivirus.core.scan_engine - INFO - ScanEngine initialized
+2025-10-22 00:12:34,171 - educational_antivirus.core.scan_engine - INFO - Initializing signature detection engine...
+2025-10-22 00:12:34,175 - educational_antivirus.detection.signature_database - INFO - Signature database initialized at data\signatures.db
+2025-10-22 00:12:34,176 - educational_antivirus.detection.signature_engine - INFO - Loaded 10 signatures for pattern matching
+2025-10-22 00:12:34,177 - educational_antivirus.detection.signature_engine - INFO - Signature engine initialized with 10 signatures
+2025-10-22 00:12:34,177 - educational_antivirus.core.scan_engine - INFO - Initializing behavioral analysis engine...
+2025-10-22 00:12:34,177 - educational_antivirus.core.scan_engine - INFO - Initializing quarantine manager...
+2025-10-22 00:12:34,179 - educational_antivirus.core.scan_engine - INFO - ScanEngine initialization completed successfully
+2025-10-22 00:12:34,180 - educational_antivirus.core.scan_engine - INFO - Threat decision callback set
+2025-10-22 00:12:34,181 - educational_antivirus.core.scan_engine - INFO - Starting scan of path: samples
+2025-10-22 00:12:34,183 - educational_antivirus.core.scan_engine - INFO - Found 4 files to scan in samples
+2025-10-22 00:12:34,205 - educational_antivirus.core.scan_engine - ERROR - Error scanning file samples\cli_test_eicar.txt: Error extracting metadata from samples\cli_test_eicar.txt: Error reading file samples\cli_test_eicar.txt: [Errno 22] Invalid argument: 'samples\\cli_test_eicar.txt'
+2025-10-22 00:12:34,205 - educational_antivirus.core.scan_engine - WARNING - Error scanning samples\cli_test_eicar.txt: Error extracting metadata from samples\cli_test_eicar.txt: Error reading file samples\cli_test_eicar.txt: [Errno 22] Invalid argument: 'samples\\cli_test_eicar.txt'
+2025-10-22 00:12:34,224 - educational_antivirus.core.scan_engine - INFO - Scan completed: 0 detections in 4 files
+2025-10-22 00:12:34,225 - educational_antivirus.core.scan_engine - INFO - Integrated scan completed: 0 threats processed
+2025-10-22 00:12:34,228 - educational_antivirus.detection.signature_engine - INFO - Signature engine closed
+2025-10-22 00:12:34,229 - educational_antivirus.core.scan_engine - INFO - ScanEngine closed
+2025-10-22 00:12:38,054 - educational_antivirus.core.scan_engine - INFO - ScanEngine initialized
+2025-10-22 00:12:38,055 - educational_antivirus.core.scan_engine - INFO - Initializing signature detection engine...
+2025-10-22 00:12:38,057 - educational_antivirus.detection.signature_database - INFO - Signature database initialized at data\signatures.db
+2025-10-22 00:12:38,058 - educational_antivirus.detection.signature_engine - INFO - Loaded 10 signatures for pattern matching
+2025-10-22 00:12:38,058 - educational_antivirus.detection.signature_engine - INFO - Signature engine initialized with 10 signatures
+2025-10-22 00:12:38,059 - educational_antivirus.core.scan_engine - INFO - Initializing behavioral analysis engine...
+2025-10-22 00:12:38,059 - educational_antivirus.core.scan_engine - INFO - Initializing quarantine manager...
+2025-10-22 00:12:38,061 - educational_antivirus.core.scan_engine - INFO - ScanEngine initialization completed successfully
+2025-10-22 00:12:47,968 - educational_antivirus.detection.signature_engine - INFO - Signature engine closed
+2025-10-22 00:12:47,968 - educational_antivirus.core.scan_engine - INFO - ScanEngine closed
+2025-10-22 00:28:25,574 - educational_antivirus.reporting.report_generator - INFO - ReportGenerator initialized with path: demo_reports
+2025-10-22 00:28:25,575 - educational_antivirus.reporting.report_generator - INFO - Generating text report for 3 scan results
+2025-10-22 00:28:25,576 - educational_antivirus.reporting.report_generator - INFO - Report generated successfully (2031 characters)
+2025-10-22 00:28:25,577 - educational_antivirus.reporting.report_generator - INFO - Report saved to: demo_reports\demo_basic_report.txt
+2025-10-22 00:28:25,580 - educational_antivirus.reporting.report_generator - INFO - Generating json report for 3 scan results
+2025-10-22 00:28:25,582 - educational_antivirus.reporting.report_generator - INFO - Report generated successfully (4171 characters)
+2025-10-22 00:28:25,584 - educational_antivirus.reporting.report_generator - INFO - Report saved to: demo_reports\demo_basic_report.json
+2025-10-22 00:28:25,587 - educational_antivirus.reporting.report_generator - INFO - Generating csv report for 3 scan results
+2025-10-22 00:28:25,610 - educational_antivirus.reporting.report_generator - INFO - Report generated successfully (819 characters)
+2025-10-22 00:28:25,612 - educational_antivirus.reporting.report_generator - INFO - Report saved to: demo_reports\demo_basic_report.csv
+2025-10-22 00:28:25,614 - educational_antivirus.reporting.report_generator - INFO - ReportGenerator initialized with path: demo_reports
+2025-10-22 00:28:25,614 - educational_antivirus.reporting.educational_report_system - INFO - EducationalReportSystem initialized
+2025-10-22 00:28:25,614 - educational_antivirus.reporting.report_generator - INFO - Generating text report for 3 scan results
+2025-10-22 00:28:25,614 - educational_antivirus.reporting.report_generator - INFO - Report generated successfully (2031 characters)
+2025-10-22 00:28:25,615 - educational_antivirus.reporting.educational_report_system - INFO - Educational report generated with learning content
+2025-10-22 00:28:25,615 - educational_antivirus.reporting.report_generator - INFO - Generating text report for 3 scan results
+2025-10-22 00:28:25,615 - educational_antivirus.reporting.report_generator - INFO - Report generated successfully (2031 characters)
+2025-10-22 00:28:25,615 - educational_antivirus.reporting.educational_report_system - INFO - Educational report generated with learning content
+2025-10-22 00:28:25,617 - educational_antivirus.reporting.report_generator - INFO - Report saved to: demo_reports\demo_educational_report.txt
+2025-10-22 00:28:25,623 - educational_antivirus.reporting.report_generator - INFO - Report saved to: demo_reports\demo_threat_explanations.txt
+2025-10-22 00:28:25,625 - educational_antivirus.reporting.report_generator - INFO - ReportGenerator initialized with path: demo_reports
+2025-10-22 00:28:25,638 - educational_antivirus.reporting.educational_report_system - INFO - EducationalReportSystem initialized
+2025-10-22 00:28:25,640 - educational_antivirus.reporting.report_generator - INFO - Report saved to: demo_reports\demo_detection_methods_guide.txt
+2025-10-22 00:28:25,644 - educational_antivirus.reporting.report_generator - INFO - ReportGenerator initialized with path: demo_reports
+2025-10-22 00:28:25,644 - educational_antivirus.reporting.educational_report_system - INFO - EducationalReportSystem initialized
+2025-10-22 00:28:25,645 - educational_antivirus.reporting.report_generator - INFO - Report saved to: demo_reports\demo_learning_recommendations.txt

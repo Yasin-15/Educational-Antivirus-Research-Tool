@@ -1,0 +1,74 @@
+================================================================================
+EDUCATIONAL ANTIVIRUS RESEARCH TOOL - SCAN REPORT
+================================================================================
+Generated: 2025-10-22 00:28:25
+Report covers 3 scan(s)
+
+EXECUTIVE SUMMARY
+----------------------------------------
+Total Files Scanned: 50
+Total Detections: 3
+Detection Rate: 6.00%
+Average Risk Score: 5.00
+Scan Success Rate: 100.0%
+
+DETECTION ANALYSIS
+----------------------------------------
+Signature-based Detections: 1
+Behavioral Detections: 2
+
+Risk Level Distribution:
+  High Risk (8-10): 0
+  Medium Risk (4-7): 2
+  Low Risk (1-3): 1
+
+PERFORMANCE METRICS
+----------------------------------------
+Average Scan Duration: 360.00 seconds
+Total Scan Time: 1080.00 seconds
+Scanning Speed: 0.05 files/second
+
+MOST COMMON THREATS
+----------------------------------------
+ 1. EICAR: 1 occurrences
+ 2. High Entropy Content: 1 occurrences
+ 3. Suspicious File Extension: 1 occurrences
+
+RECENT SCAN DETAILS
+----------------------------------------
+Scan ID: demo-scan-003
+  Time: 2025-10-21 23:58:25
+  Duration: 300.0s
+  Files: 15, Detections: 0
+  Status: completed
+
+Scan ID: demo-scan-002
+  Time: 2025-10-21 23:28:25
+  Duration: 480.0s
+  Files: 25, Detections: 2
+  Status: completed
+  Threats Found:
+    - High Entropy Content (Risk: 7)
+      File: samples/high_entropy_test.bin
+    - Suspicious File Extension (Risk: 6)
+      File: samples/test_script.bat
+
+Scan ID: demo-scan-001
+  Time: 2025-10-21 22:28:25
+  Duration: 300.0s
+  Files: 10, Detections: 1
+  Status: completed
+  Threats Found:
+    - EICAR (Risk: 2)
+      File: test_samples/eicar.txt
+
+RECOMMENDATIONS
+----------------------------------------
+⚠️  High detection rate detected. Consider:
+   - Reviewing quarantined files
+   - Updating signature database
+   - Checking for false positives
+
+================================================================================
+End of Report
+================================================================================
