@@ -1,0 +1,50 @@
+2025-10-22 00:04:26,937 - educational_antivirus.core.scan_engine - INFO - ScanEngine initialized
+2025-10-22 00:04:26,939 - educational_antivirus.core.scan_engine - INFO - Initializing signature detection engine...
+2025-10-22 00:04:27,129 - educational_antivirus.detection.signature_database - INFO - Signature database initialized at detection\signatures.db
+2025-10-22 00:04:27,131 - educational_antivirus.detection.signature_engine - INFO - Loading default educational signatures...
+2025-10-22 00:04:27,222 - educational_antivirus.detection.signature_database - INFO - Added signature: eicar_standard
+2025-10-22 00:04:27,314 - educational_antivirus.detection.signature_database - INFO - Added signature: suspicious_autorun
+2025-10-22 00:04:27,408 - educational_antivirus.detection.signature_database - INFO - Added signature: batch_file_suspicious
+2025-10-22 00:04:27,499 - educational_antivirus.detection.signature_database - INFO - Added signature: educational_trojan_sim
+2025-10-22 00:04:27,610 - educational_antivirus.detection.signature_database - INFO - Added signature: educational_worm_sim
+2025-10-22 00:04:27,704 - educational_antivirus.detection.signature_database - INFO - Added signature: registry_startup_mod
+2025-10-22 00:04:27,793 - educational_antivirus.detection.signature_database - INFO - Added signature: powershell_encoded
+2025-10-22 00:04:27,883 - educational_antivirus.detection.signature_database - INFO - Added signature: suspicious_url_pattern
+2025-10-22 00:04:27,969 - educational_antivirus.detection.signature_database - INFO - Added signature: extension_spoofing
+2025-10-22 00:04:28,064 - educational_antivirus.detection.signature_database - INFO - Added signature: educational_virus_sim
+2025-10-22 00:04:28,066 - educational_antivirus.detection.signature_engine - INFO - Loaded 10 signatures for pattern matching
+2025-10-22 00:04:28,067 - educational_antivirus.detection.signature_engine - INFO - Signature engine initialized with 10 signatures
+2025-10-22 00:04:28,067 - educational_antivirus.core.scan_engine - INFO - Initializing behavioral analysis engine...
+2025-10-22 00:04:28,067 - educational_antivirus.core.scan_engine - INFO - ScanEngine initialization completed successfully
+2025-10-22 00:04:28,068 - educational_antivirus.core.scan_engine - INFO - Starting scan of path: C:\Users\YasinDev\AppData\Local\Temp\antivirus_test_ryjfy3zq
+2025-10-22 00:04:28,071 - educational_antivirus.core.scan_engine - INFO - Found 3 files to scan in C:\Users\YasinDev\AppData\Local\Temp\antivirus_test_ryjfy3zq
+2025-10-22 00:04:30,299 - educational_antivirus.core.scan_engine - ERROR - Error scanning file C:\Users\YasinDev\AppData\Local\Temp\antivirus_test_ryjfy3zq\eicar_test.txt: Error extracting metadata from C:\Users\YasinDev\AppData\Local\Temp\antivirus_test_ryjfy3zq\eicar_test.txt: Error reading file C:\Users\YasinDev\AppData\Local\Temp\antivirus_test_ryjfy3zq\eicar_test.txt: [Errno 22] Invalid argument: 'C:\\Users\\YasinDev\\AppData\\Local\\Temp\\antivirus_test_ryjfy3zq\\eicar_test.txt'
+2025-10-22 00:04:30,301 - educational_antivirus.core.scan_engine - WARNING - Error scanning C:\Users\YasinDev\AppData\Local\Temp\antivirus_test_ryjfy3zq\eicar_test.txt: Error extracting metadata from C:\Users\YasinDev\AppData\Local\Temp\antivirus_test_ryjfy3zq\eicar_test.txt: Error reading file C:\Users\YasinDev\AppData\Local\Temp\antivirus_test_ryjfy3zq\eicar_test.txt: [Errno 22] Invalid argument: 'C:\\Users\\YasinDev\\AppData\\Local\\Temp\\antivirus_test_ryjfy3zq\\eicar_test.txt'
+2025-10-22 00:04:30,399 - educational_antivirus.core.scan_engine - INFO - Scan completed: 0 detections in 3 files
+2025-10-22 00:04:30,404 - educational_antivirus.detection.signature_engine - INFO - Signature engine closed
+2025-10-22 00:04:30,405 - educational_antivirus.core.scan_engine - INFO - ScanEngine closed
+2025-10-22 00:04:30,430 - educational_antivirus.core.scan_engine - INFO - ScanEngine initialized
+2025-10-22 00:04:30,432 - educational_antivirus.core.integrated_scanner - INFO - IntegratedScanner initialized
+2025-10-22 00:04:30,433 - educational_antivirus.core.scan_engine - INFO - Initializing signature detection engine...
+2025-10-22 00:04:30,438 - educational_antivirus.detection.signature_database - INFO - Signature database initialized at detection\signatures.db
+2025-10-22 00:04:30,440 - educational_antivirus.detection.signature_engine - INFO - Loaded 10 signatures for pattern matching
+2025-10-22 00:04:30,440 - educational_antivirus.detection.signature_engine - INFO - Signature engine initialized with 10 signatures
+2025-10-22 00:04:30,445 - educational_antivirus.core.scan_engine - INFO - Initializing behavioral analysis engine...
+2025-10-22 00:04:30,446 - educational_antivirus.core.scan_engine - INFO - ScanEngine initialization completed successfully
+2025-10-22 00:04:30,447 - educational_antivirus.core.integrated_scanner - INFO - IntegratedScanner initialization completed
+2025-10-22 00:04:30,448 - educational_antivirus.core.integrated_scanner - INFO - Threat decision callback set
+2025-10-22 00:04:30,448 - educational_antivirus.core.integrated_scanner - INFO - Starting integrated scan of: C:\Users\YasinDev\AppData\Local\Temp\antivirus_test_oxo6ongj
+2025-10-22 00:04:30,449 - educational_antivirus.core.scan_engine - INFO - Starting scan of path: C:\Users\YasinDev\AppData\Local\Temp\antivirus_test_oxo6ongj
+2025-10-22 00:04:30,459 - educational_antivirus.core.scan_engine - INFO - Found 3 files to scan in C:\Users\YasinDev\AppData\Local\Temp\antivirus_test_oxo6ongj
+2025-10-22 00:04:30,487 - educational_antivirus.core.scan_engine - ERROR - Error scanning file C:\Users\YasinDev\AppData\Local\Temp\antivirus_test_oxo6ongj\eicar_test.txt: Error extracting metadata from C:\Users\YasinDev\AppData\Local\Temp\antivirus_test_oxo6ongj\eicar_test.txt: Error reading file C:\Users\YasinDev\AppData\Local\Temp\antivirus_test_oxo6ongj\eicar_test.txt: [Errno 22] Invalid argument: 'C:\\Users\\YasinDev\\AppData\\Local\\Temp\\antivirus_test_oxo6ongj\\eicar_test.txt'
+2025-10-22 00:04:30,487 - educational_antivirus.core.scan_engine - WARNING - Error scanning C:\Users\YasinDev\AppData\Local\Temp\antivirus_test_oxo6ongj\eicar_test.txt: Error extracting metadata from C:\Users\YasinDev\AppData\Local\Temp\antivirus_test_oxo6ongj\eicar_test.txt: Error reading file C:\Users\YasinDev\AppData\Local\Temp\antivirus_test_oxo6ongj\eicar_test.txt: [Errno 22] Invalid argument: 'C:\\Users\\YasinDev\\AppData\\Local\\Temp\\antivirus_test_oxo6ongj\\eicar_test.txt'
+2025-10-22 00:04:30,544 - educational_antivirus.core.scan_engine - INFO - Scan completed: 0 detections in 3 files
+2025-10-22 00:04:30,545 - educational_antivirus.core.integrated_scanner - INFO - Integrated scan completed: 0 threats processed
+2025-10-22 00:04:30,557 - educational_antivirus.detection.signature_engine - INFO - Signature engine closed
+2025-10-22 00:04:30,558 - educational_antivirus.core.scan_engine - INFO - ScanEngine closed
+2025-10-22 00:04:30,558 - educational_antivirus.core.integrated_scanner - INFO - IntegratedScanner closed
+2025-10-22 00:04:30,585 - educational_antivirus.core.threat_handler - INFO - ThreatHandler initialized in automatic mode
+2025-10-22 00:04:30,589 - educational_antivirus.core.threat_handler - INFO - ThreatHandler initialized in batch mode
+2025-10-22 00:04:30,591 - educational_antivirus.core.threat_handler - INFO - Set 2 batch decision rules
+2025-10-22 00:04:30,592 - educational_antivirus.core.threat_handler - INFO - Set default action to quarantine
+2025-10-22 00:04:30,594 - educational_antivirus.core.threat_handler - INFO - Batch decision for /test/eicar_sample.txt: quarantine (pattern: eicar)

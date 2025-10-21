@@ -1,0 +1,34 @@
+# Educational Antivirus Research Tool Configuration
+# This file contains configuration settings for the antivirus tool
+
+# Detection Settings
+signature_sensitivity: 7        # Sensitivity level for signature matching (1-10)
+behavioral_threshold: 6         # Risk score threshold for behavioral analysis (1-10)
+max_file_size_mb: 50           # Maximum file size to scan in MB
+
+# File Paths
+signature_db_path: "data/signatures.db"
+quarantine_path: "quarantine/"
+samples_path: "samples/"
+reports_path: "reports/"
+
+# Behavioral Analysis Settings
+entropy_threshold: 7.0          # Entropy threshold for suspicious files
+suspicious_extensions:          # File extensions to flag as suspicious
+  - ".exe"
+  - ".scr"
+  - ".bat"
+  - ".cmd"
+  - ".vbs"
+
+# Logging Configuration
+log_level: "INFO"              # Log level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+log_file: "antivirus.log"
+
+# Scanning Options
+recursive_scan: true           # Scan directories recursively
+follow_symlinks: false         # Follow symbolic links during scanning
+skip_extensions:               # File extensions to skip during scanning
+  - ".tmp"
+  - ".log"
+  - ".bak"

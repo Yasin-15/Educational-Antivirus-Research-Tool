@@ -1,0 +1,76 @@
+{
+  "report_generated": "2025-10-21T23:49:00.543210",
+  "statistics": {
+    "total_quarantined": 3,
+    "active_quarantined": 3,
+    "restored_files": 0,
+    "signature_detections": 2,
+    "behavioral_detections": 1,
+    "quarantine_path": "test_quarantine_enhanced",
+    "last_updated": "2025-10-21T23:49:00.543210"
+  },
+  "quarantined_files": [
+    {
+      "quarantine_id": "42b88f43-b54e-4940-9dbf-b14e733f98a9",
+      "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\test_file_2.txt",
+      "quarantine_date": "2025-10-21T23:49:00.475813",
+      "restored": false,
+      "detection_info": {
+        "threat_name": "Test.Threat.C",
+        "detection_type": "signature",
+        "risk_score": 7,
+        "signature_id": "TEST_SIG_002",
+        "timestamp": "2025-10-21T23:49:00.470786"
+      }
+    },
+    {
+      "quarantine_id": "c6637660-ef5c-47f6-95e2-40767e5a2ee0",
+      "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\test_file_1.txt",
+      "quarantine_date": "2025-10-21T23:49:00.428904",
+      "restored": false,
+      "detection_info": {
+        "threat_name": "Test.Threat.B",
+        "detection_type": "behavioral",
+        "risk_score": 6,
+        "signature_id": null,
+        "timestamp": "2025-10-21T23:49:00.423871"
+      }
+    },
+    {
+      "quarantine_id": "72b329e8-6f7b-4b1a-872a-6cf7cfc27968",
+      "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\test_file_0.txt",
+      "quarantine_date": "2025-10-21T23:49:00.416654",
+      "restored": false,
+      "detection_info": {
+        "threat_name": "Test.Threat.A",
+        "detection_type": "signature",
+        "risk_score": 5,
+        "signature_id": "TEST_SIG_000",
+        "timestamp": "2025-10-21T23:49:00.412653"
+      }
+    }
+  ],
+  "enhanced_statistics": {
+    "total_quarantined": 3,
+    "active_quarantined": 3,
+    "restored_files": 0,
+    "signature_detections": 2,
+    "behavioral_detections": 1,
+    "quarantine_path": "test_quarantine_enhanced",
+    "last_updated": "2025-10-21T23:49:00.548234",
+    "age_analysis": {
+      "average_days": 0.0,
+      "oldest_days": 0,
+      "newest_days": 0
+    },
+    "risk_analysis": {
+      "average_risk_score": 6.0,
+      "high_risk_count": 0,
+      "high_risk_percentage": 0.0
+    },
+    "threat_analysis": {
+      "unique_threats": 3,
+      "total_detections": 3
+    }
+  }
+}
