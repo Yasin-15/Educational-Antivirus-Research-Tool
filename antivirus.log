@@ -2965,3 +2965,6 @@
 2025-10-22 00:59:32,978 - educational_antivirus.detection.signature_engine - INFO - Signature engine closed
 2025-10-22 00:59:32,978 - educational_antivirus.core.scan_engine - INFO - ScanEngine closed
 2025-10-22 00:59:32,978 - educational_antivirus.core.integrated_scanner - INFO - IntegratedScanner closed
+2025-10-22 10:38:37 - antivirus - INFO - CLI initialized successfully
+2025-10-22 10:38:49 - antivirus - INFO - CLI initialized successfully
+2025-10-22 10:39:49 - antivirus - INFO - CLI initialized successfully

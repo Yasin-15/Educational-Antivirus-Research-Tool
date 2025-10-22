@@ -231,6 +231,8 @@ class SampleInfo:
     file_hash: str
     file_size: int
     educational_notes: str = ""
+    sample_id: str = ""
+    signatures: List[str] = field(default_factory=list)
     
     def to_dict(self) -> Dict[str, Any]:
         """Convert to dictionary for serialization."""
@@ -243,8 +245,34 @@ class SampleInfo:
             'created_time': self.created_time.isoformat(),
             'file_hash': self.file_hash,
             'file_size': self.file_size,
-            'educational_notes': self.educational_notes
+            'educational_notes': self.educational_notes,
+            'sample_id': self.sample_id,
+            'signatures': self.signatures
         }
+    
+    @classmethod
+    def from_dict(cls, data: Dict[str, Any]) -> 'SampleInfo':
+        """Create SampleInfo from dictionary."""
+        # Handle datetime conversion
+        if isinstance(data.get('created_time'), str):
+            data['created_time'] = datetime.fromisoformat(data['created_time'])
+        elif 'creation_date' in data:
+            # Handle legacy field name
+            if isinstance(data['creation_date'], str):
+                data['created_time'] = datetime.fromisoformat(data['creation_date'])
+            else:
+                data['created_time'] = data['creation_date']
+            del data['creation_date']
+        
+        # Set defaults for missing fields
+        data.setdefault('educational_notes', '')
+        data.setdefault('sample_id', '')
+        data.setdefault('signatures', [])
+        data.setdefault('threat_level', 1)
+        data.setdefault('file_hash', '')
+        data.setdefault('file_size', 0)
+        
+        return cls(**data)
 
 
 @dataclass

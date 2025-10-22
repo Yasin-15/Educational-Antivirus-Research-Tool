@@ -1,0 +1,49 @@
+# Multi-Stage Malware Simulation - EDUCATIONAL ONLY
+# This file simulates the behavior patterns of multi-stage malware
+# It contains NO executable code and is completely harmless
+
+## Stage 1: Initial Infection Vector
+# Simulated email attachment or drive-by download
+INITIAL_VECTOR = "email_attachment_simulation"
+PAYLOAD_URL = "http://example-malware-c2.invalid/payload"
+
+## Stage 2: Environment Reconnaissance  
+# Malware typically gathers system information
+SYSTEM_INFO_COLLECTION = [
+    "Operating System Version",
+    "Installed Security Software", 
+    "Network Configuration",
+    "Running Processes",
+    "User Privileges"
+]
+
+## Stage 3: Persistence Establishment
+# Common persistence mechanisms
+PERSISTENCE_METHODS = [
+    "Registry Run Keys",
+    "Scheduled Tasks",
+    "Service Installation", 
+    "Startup Folder",
+    "DLL Hijacking"
+]
+
+## Stage 4: Command and Control
+# Communication with remote servers
+C2_COMMUNICATION = {
+    "protocol": "HTTPS",
+    "encryption": "AES-256",
+    "beacon_interval": "300 seconds",
+    "backup_domains": ["backup1.invalid", "backup2.invalid"]
+}
+
+## Stage 5: Payload Execution
+# Final malicious activities
+PAYLOAD_ACTIVITIES = [
+    "Data Exfiltration",
+    "Credential Harvesting",
+    "Lateral Movement",
+    "Additional Payload Download"
+]
+
+# Educational Note: This simulation helps understand the complexity
+# of modern malware and the importance of multi-layered defense
