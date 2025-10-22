@@ -1,0 +1,27 @@
+{
+  "report_generated": "2025-10-21T23:45:42.636254",
+  "statistics": {
+    "total_quarantined": 1,
+    "active_quarantined": 1,
+    "restored_files": 0,
+    "signature_detections": 1,
+    "behavioral_detections": 0,
+    "quarantine_path": "test_quarantine",
+    "last_updated": "2025-10-21T23:45:42.636254"
+  },
+  "quarantined_files": [
+    {
+      "quarantine_id": "a6bf946f-6fbc-4e10-a01f-6f74db5742b8",
+      "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\test_file.txt",
+      "quarantine_date": "2025-10-21T23:45:42.605554",
+      "restored": false,
+      "detection_info": {
+        "threat_name": "Test.Signature.A",
+        "detection_type": "signature",
+        "risk_score": 8,
+        "signature_id": "TEST_SIG_001",
+        "timestamp": "2025-10-21T23:45:42.601556"
+      }
+    }
+  ]
+}

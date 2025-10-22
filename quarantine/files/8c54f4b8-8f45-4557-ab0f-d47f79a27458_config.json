@@ -1,0 +1,25 @@
+{
+  "signature_sensitivity": 5,
+  "behavioral_threshold": 7,
+  "max_file_size_mb": 100,
+  "signature_db_path": "data/signatures.db",
+  "quarantine_path": "quarantine/",
+  "samples_path": "samples/",
+  "reports_path": "reports/",
+  "entropy_threshold": 7.5,
+  "suspicious_extensions": [
+    ".exe",
+    ".scr",
+    ".bat",
+    ".cmd"
+  ],
+  "log_level": "INFO",
+  "log_file": "antivirus.log",
+  "log_format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+  "recursive_scan": true,
+  "follow_symlinks": false,
+  "skip_extensions": [
+    ".tmp",
+    ".log"
+  ]
+}

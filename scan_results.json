@@ -1,0 +1,21 @@
+{
+  "scan_info": {
+    "scan_id": "2e6ac7e4-53dc-402b-a969-afcdf027b594",
+    "start_time": "2025-10-22T00:58:33.722444",
+    "end_time": "2025-10-22T00:58:33.811569",
+    "status": "completed",
+    "scanned_paths": [
+      "samples"
+    ],
+    "total_files": 3
+  },
+  "detections": [],
+  "errors": [],
+  "summary": {
+    "total_threats": 0,
+    "high_risk_threats": 0,
+    "medium_risk_threats": 0,
+    "low_risk_threats": 0,
+    "total_errors": 0
+  }
+}

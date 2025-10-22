@@ -1,0 +1,1489 @@
+{
+  "2b780e73-4621-4005-839c-9c45b37f3878": {
+    "quarantine_id": "2b780e73-4621-4005-839c-9c45b37f3878",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\quarantine\\quarantine_cli.py",
+    "quarantine_path": "quarantine\\files\\2b780e73-4621-4005-839c-9c45b37f3878_quarantine_cli.py",
+    "detection_info": {
+      "file_path": "quarantine\\quarantine_cli.py",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 6,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:26.898607",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 426,
+        "match_length": 37,
+        "confidence": 0.925,
+        "context": "722c2046696c654163636573734572726f720d0a66726f6d20636f72652e6d6f64656c7320696d706f727420446574656374696f6e2c20446574656374696f6e547970650d0a0d0a0d0a646566206c6973745f71756172616e74696e65645f636f6d6d616e",
+        "file_size": 15639,
+        "file_hash_md5": "639da458ce7e2e5f2ef5c7bfee054af7",
+        "file_hash_sha256": "e9253f18b39a41a1d9ee525c31b1f2d2d1bc7bd6e0b2c0cf6d107bb5f1332248",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:30.041767",
+    "restored": false
+  },
+  "b44c0421-9b24-4e66-b7f6-bbe23b45d5a7": {
+    "quarantine_id": "b44c0421-9b24-4e66-b7f6-bbe23b45d5a7",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\quarantine\\quarantine_interface.py",
+    "quarantine_path": "quarantine\\files\\b44c0421-9b24-4e66-b7f6-bbe23b45d5a7_quarantine_interface.py",
+    "detection_info": {
+      "file_path": "quarantine\\quarantine_interface.py",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 5,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:26.920742",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 210,
+        "match_length": 31,
+        "confidence": 0.775,
+        "context": "6577696e672064657461696c732c20726573746f726174696f6e2c20616e642064656c6574696f6e206f662071756172616e74696e65642066696c65732e0d0a49742073657276657320617320746865206d61696e20696e74657266616365",
+        "file_size": 20431,
+        "file_hash_md5": "b6c1fb0ade81b6393e1e7a810229e2e4",
+        "file_hash_sha256": "2a644099234e36f20d73a631330e6cc4461c49d1617d5495d2ba89437ee1949a",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:30.053643",
+    "restored": false
+  },
+  "c900ce6d-9b76-407e-8eef-794c87ebfe02": {
+    "quarantine_id": "c900ce6d-9b76-407e-8eef-794c87ebfe02",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\quarantine\\quarantine_manager.py",
+    "quarantine_path": "quarantine\\files\\c900ce6d-9b76-407e-8eef-794c87ebfe02_quarantine_manager.py",
+    "detection_info": {
+      "file_path": "quarantine\\quarantine_manager.py",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 6,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:26.932828",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 530,
+        "match_length": 39,
+        "confidence": 0.975,
+        "context": "0d0a696d706f7274206c6f6767696e670d0a0d0a66726f6d20636f72652e6d6f64656c7320696d706f727420446574656374696f6e2c2051756172616e74696e65456e7472790d0a66726f6d20636f72652e657863657074696f6e7320696d706f727420517561",
+        "file_size": 21278,
+        "file_hash_md5": "e566a56efc1b0a2039d91ec5183fc323",
+        "file_hash_sha256": "d2cfae82fe044223d981b82db57ebafaf5ddce49fd301241384f538b96639eb7",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:30.095840",
+    "restored": false
+  },
+  "995dd099-d0b8-4bc3-8c56-bb65c8c99ad9": {
+    "quarantine_id": "995dd099-d0b8-4bc3-8c56-bb65c8c99ad9",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\reporting\\educational_content.py",
+    "quarantine_path": "quarantine\\files\\995dd099-d0b8-4bc3-8c56-bb65c8c99ad9_educational_content.py",
+    "detection_info": {
+      "file_path": "reporting\\educational_content.py",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 7,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:26.985165",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 115,
+        "match_length": 44,
+        "confidence": 1.0,
+        "context": "73206d6f64756c652070726f766964657320656475636174696f6e616c20696e666f726d6174696f6e2061626f757420746872656174732c20646574656374696f6e206d6574686f64732c0d0a616e64206379626572736563757269747920636f6e636570747320746f2068",
+        "file_size": 40654,
+        "file_hash_md5": "48bcf684df56db34751d70c52323c22b",
+        "file_hash_sha256": "e706b1b9ffa888e607a0449f85284d13ad2d812b7ce698f2b7eda9ffae3f732a",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:30.234214",
+    "restored": false
+  },
+  "9bc413b1-0f4e-4103-9511-141113adadef": {
+    "quarantine_id": "9bc413b1-0f4e-4103-9511-141113adadef",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\reporting\\educational_report_system.py",
+    "quarantine_path": "quarantine\\files\\9bc413b1-0f4e-4103-9511-141113adadef_educational_report_system.py",
+    "detection_info": {
+      "file_path": "reporting\\educational_report_system.py",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 5,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:26.988778",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 349,
+        "match_length": 34,
+        "confidence": 0.85,
+        "context": "686c696220696d706f727420506174680d0a0d0a66726f6d20636f72652e6d6f64656c7320696d706f7274205363616e526573756c742c20446574656374696f6e0d0a66726f6d20636f72652e6c6f6767696e675f636f6e66696720696d706f7274",
+        "file_size": 21056,
+        "file_hash_md5": "7d293131a0de0876e67fa169737fd5f9",
+        "file_hash_sha256": "fc0bd6c87afe2a3ef3e812888eff6b044c48113fc6532d98939a65a30cfbc784",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:30.283361",
+    "restored": false
+  },
+  "dc847271-6d22-47b6-861f-dee613fac46b": {
+    "quarantine_id": "dc847271-6d22-47b6-861f-dee613fac46b",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\reporting\\report_generator.py",
+    "quarantine_path": "quarantine\\files\\dc847271-6d22-47b6-861f-dee613fac46b_report_generator.py",
+    "detection_info": {
+      "file_path": "reporting\\report_generator.py",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 7,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:27.016123",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 178,
+        "match_length": 63,
+        "confidence": 1.0,
+        "context": "746820737570706f72740d0a666f72206d756c7469706c65206f757470757420666f726d61747320284a534f4e2c204353562c20746578742920616e642064657461696c656420737461746973746963732063616c63756c6174696f6e2e0d0a2222220d0a696d706f7274206f730d0a696d706f7274206a736f6e0d0a696d",
+        "file_size": 24437,
+        "file_hash_md5": "417748027df5525fb97bec1aad895ad9",
+        "file_hash_sha256": "a12d2c5d491bbf51f40a1a9a4444de4a1433616f77962fa3f89cec48c75aae28",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:30.316019",
+    "restored": false
+  },
+  "a8e0706d-8a47-4daa-8220-9c42cd18a282": {
+    "quarantine_id": "a8e0706d-8a47-4daa-8220-9c42cd18a282",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\__pycache__\\cli_utils.cpython-312.pyc",
+    "quarantine_path": "quarantine\\files\\a8e0706d-8a47-4daa-8220-9c42cd18a282_cli_utils.cpython-312.pyc",
+    "detection_info": {
+      "file_path": "__pycache__\\cli_utils.cpython-312.pyc",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 7,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:27.100177",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 446,
+        "match_length": 86,
+        "confidence": 1.0,
+        "context": "4f7074696f6e616cda044c6973742902da086461746574696d65da0974696d6564656c7461630000000000000000000000000b00000000000000f378000000970065005a0164005a0264015a03090009006413640265046403650564046505640565046608640684055a066414640984045a076414640a84045a08090009006415640b6504640c6509640d6504640e65046407640866",
+        "file_size": 21764,
+        "file_hash_md5": "ae2adf6443c42e6b32bfb2914eecc926",
+        "file_hash_sha256": "295a8dc403d277be80db5d55f6226b811b44c3a7f3c62551eb6fb219c0a75da0",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:30.367919",
+    "restored": false
+  },
+  "1797ebad-e9a8-44d9-8b9e-a62f9cc0a760": {
+    "quarantine_id": "1797ebad-e9a8-44d9-8b9e-a62f9cc0a760",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\.git\\hooks\\fsmonitor-watchman.sample",
+    "quarantine_path": "quarantine\\files\\1797ebad-e9a8-44d9-8b9e-a62f9cc0a760_fsmonitor-watchman.sample",
+    "detection_info": {
+      "file_path": ".git\\hooks\\fsmonitor-watchman.sample",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 7,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:27.127595",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 276,
+        "match_length": 66,
+        "confidence": 1.0,
+        "context": "6e746c7920322920616e64206c6173742075706461746520746f6b656e0a2320666f726d6174746564206173206120737472696e6720616e64206f75747075747320746f207374646f75742061206e65772075706461746520746f6b656e20616e640a2320616c6c2066696c657320746861742068617665206265656e206d6f6469",
+        "file_size": 4726,
+        "file_hash_md5": "a0b2633a2c8e97501610bd3f73da66fc",
+        "file_hash_sha256": "e0549964e93897b519bd8e333c037e51fff0f88ba13e086a331592bf801fa1d0",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:30.398168",
+    "restored": false
+  },
+  "b1136c9e-a7dc-4fdb-88e8-0c36700d86e7": {
+    "quarantine_id": "b1136c9e-a7dc-4fdb-88e8-0c36700d86e7",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\.git\\hooks\\pre-push.sample",
+    "quarantine_path": "quarantine\\files\\b1136c9e-a7dc-4fdb-88e8-0c36700d86e7_pre-push.sample",
+    "detection_info": {
+      "file_path": ".git\\hooks\\pre-push.sample",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 7,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:27.155521",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 487,
+        "match_length": 74,
+        "confidence": 1.0,
+        "context": "20617267756d656e74732077696c6c20626520657175616c2e0a230a2320496e666f726d6174696f6e2061626f75742074686520636f6d6d69747320776869636820617265206265696e672070757368656420697320737570706c696564206173206c696e657320746f0a2320746865207374616e6461726420696e70757420696e2074686520666f72",
+        "file_size": 1374,
+        "file_hash_md5": "2c642152299a94e05ea26eae11993b13",
+        "file_hash_sha256": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:30.424365",
+    "restored": false
+  },
+  "12ac653a-bd72-43e8-8be4-85f7e591e784": {
+    "quarantine_id": "12ac653a-bd72-43e8-8be4-85f7e591e784",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\.git\\hooks\\pre-rebase.sample",
+    "quarantine_path": "quarantine\\files\\12ac653a-bd72-43e8-8be4-85f7e591e784_pre-rebase.sample",
+    "detection_info": {
+      "file_path": ".git\\hooks\\pre-rebase.sample",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 7,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:27.171459",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 2654,
+        "match_length": 54,
+        "confidence": 1.0,
+        "context": "206d657267656420696e746f20226d6173746572222c0a20202069742069732064656c657465642e2020496620796f75206e65656420746f206275696c64206f6e20746f70206f6620697420746f20636f72726563740a2020206561726c696572206d697374616b65732c2061206e657720746f7069",
+        "file_size": 4898,
+        "file_hash_md5": "56e45f2bcbc8226d2b4200f7c46371bf",
+        "file_hash_sha256": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:30.445874",
+    "restored": false
+  },
+  "1aeb949f-2852-4c7e-b01d-5b9c133813c1": {
+    "quarantine_id": "1aeb949f-2852-4c7e-b01d-5b9c133813c1",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\.git\\hooks\\update.sample",
+    "quarantine_path": "quarantine\\files\\1aeb949f-2852-4c7e-b01d-5b9c133813c1_update.sample",
+    "detection_info": {
+      "file_path": ".git\\hooks\\update.sample",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 6,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:27.215173",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 419,
+        "match_length": 36,
+        "confidence": 0.9,
+        "context": "670a232020205468697320626f6f6c65616e207365747320776865746865722064656c6574696e6720746167732077696c6c20626520616c6c6f77656420696e207468650a232020207265706f7369746f72792e202042792064656661756c7420746865",
+        "file_size": 3650,
+        "file_hash_md5": "647ae13c682f7827c22f5fc08a03674e",
+        "file_hash_sha256": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:30.476398",
+    "restored": false
+  },
+  "3ef8f999-121a-487e-a1ac-aca310b4e2a2": {
+    "quarantine_id": "3ef8f999-121a-487e-a1ac-aca310b4e2a2",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\.git\\objects\\d2\\63068c478c28b7a66f609830d75f6ec0651d59",
+    "quarantine_path": "quarantine\\files\\3ef8f999-121a-487e-a1ac-aca310b4e2a2_63068c478c28b7a66f609830d75f6ec0651d59",
+    "detection_info": {
+      "file_path": ".git\\objects\\d2\\63068c478c28b7a66f609830d75f6ec0651d59",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 7,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:28.335373",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 3992,
+        "match_length": 347,
+        "confidence": 1.0,
+        "context": "a4d6bf6806eda5feca1c6cb2870f17c515e7224e41e19c2df645673339428c9764454c1cfc4af0d35fec4c9f5d57eca1ff82b9b3e722893300dd9dd9324363405db5788bb68ca06567560d3f6527a7293f564e52fef279efa0199b1e3fe55bb53c36d7ea9fd678e917afa9bce75b407859c7d21729278aa7c0ec1d1f5921f64cebf2a171f5fff19ac01f5909d3da64b289f6c34359116712cfa8c5305348c388cf2e76e4db11b9d0fc21c75f2e3c12dac45c9c5a73d5f23169b93dd723ef11b9309768c8ddfc05c22a24f7517b233e2622707a7cba90171468d79ce6bccdde65dfffa1b8665c22ca70acab6cac6bb787b8d94217f57a15c5381bddcae2ae9be285c433244c3d5ce2f79f9f3a2cca44b743f652be222bb55e29501d489c3b5633dcd50d42396f96cd8430d54a7ca041dea600a75ebed750d488aa188b2aae9ac4d71c946343414ef3ee0d7a565509117f918d799bfb3d96426eb3879e1f881d582172f4fe370639b1368cfdabc538bc7fdccce792650f726cbcd0cb0a3a664b5f8ce90dd8f034ee9d2e8c88abe69c94c9a01fbcab6611663a934daa",
+        "file_size": 5102,
+        "file_hash_md5": "44ae428bb7e741e412d0736cad03b8db",
+        "file_hash_sha256": "a6f4f043e7b6b22b5862d96887d460cae11799d1227dccf69ab1d2b69cf4656a",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:30.512713",
+    "restored": false
+  },
+  "3d957aca-08c2-492d-b9b1-ec285c0b4355": {
+    "quarantine_id": "3d957aca-08c2-492d-b9b1-ec285c0b4355",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\.kiro\\specs\\educational-antivirus-tool\\design.md",
+    "quarantine_path": "quarantine\\files\\3d957aca-08c2-492d-b9b1-ec285c0b4355_design.md",
+    "detection_info": {
+      "file_path": ".kiro\\specs\\educational-antivirus-tool\\design.md",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 7,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:28.481548",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 4875,
+        "match_length": 53,
+        "confidence": 1.0,
+        "context": "756172616e74696e655f69643a2073747229202d3e20626f6f6c600d0a2d206064656c6574655f71756172616e74696e65645f66696c652871756172616e74696e655f69643a2073747229202d3e20626f6f6c600d0a0d0a23232320362e205265706f72742047656e657261746f72202860726570",
+        "file_size": 9794,
+        "file_hash_md5": "5e37fb56267b85830c11341f2bc82e48",
+        "file_hash_sha256": "c86e563e694c707e77a36a46e8cb1a49df0b98c91b3fe20b9fa6bfe6b8aa0fd1",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:30.536474",
+    "restored": false
+  },
+  "5d5fe1a5-03dd-4cd2-b1ac-8f814d788da3": {
+    "quarantine_id": "5d5fe1a5-03dd-4cd2-b1ac-8f814d788da3",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\.kiro\\specs\\educational-antivirus-tool\\requirements.md",
+    "quarantine_path": "quarantine\\files\\5d5fe1a5-03dd-4cd2-b1ac-8f814d788da3_requirements.md",
+    "detection_info": {
+      "file_path": ".kiro\\specs\\educational-antivirus-tool\\requirements.md",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 7,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:28.490399",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 3658,
+        "match_length": 53,
+        "confidence": 1.0,
+        "context": "652073797374656d205348414c4c20737570706f7274206d756c7469706c6520666f726d61747320696e636c7564696e67204a534f4e2c204353562c20616e642068756d616e2d7265616461626c6520746578740d0a342e204946207265706f72742067656e65726174696f6e206661696c732054",
+        "file_size": 5155,
+        "file_hash_md5": "f45c62c92b3ee5d7f2afcf19d75f3955",
+        "file_hash_sha256": "bc5f4177c7a15b6b0a114bd4aa65fb4d90031eefebc400fe73aad57b41e4cc4a",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:30.562330",
+    "restored": false
+  },
+  "2b0b0504-16f2-4049-b96c-cdcfbd752c15": {
+    "quarantine_id": "2b0b0504-16f2-4049-b96c-cdcfbd752c15",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\.kiro\\specs\\educational-antivirus-tool\\tasks.md",
+    "quarantine_path": "quarantine\\files\\2b0b0504-16f2-4049-b96c-cdcfbd752c15_tasks.md",
+    "detection_info": {
+      "file_path": ".kiro\\specs\\educational-antivirus-tool\\tasks.md",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 5,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:28.504069",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 209,
+        "match_length": 31,
+        "confidence": 0.775,
+        "context": "6d6f64756c65730d0a20202d20446566696e6520626173652064617461206d6f64656c7320616e6420636f6e66696775726174696f6e20636c61737365730d0a20202d20536574207570206c6f6767696e6720636f6e66696775726174696f",
+        "file_size": 7905,
+        "file_hash_md5": "0b4f7e88a4d6dc8e692968bfbe538dc4",
+        "file_hash_sha256": "e92ec77193af853c93bbdefd71f2f42f15924fca76d295ab5c6088882f72497c",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:30.584720",
+    "restored": false
+  },
+  "e5ed2781-9c00-476d-b562-434d81d2fdfe": {
+    "quarantine_id": "e5ed2781-9c00-476d-b562-434d81d2fdfe",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\core\\__pycache__\\config.cpython-312.pyc",
+    "quarantine_path": "quarantine\\files\\e5ed2781-9c00-476d-b562-434d81d2fdfe_config.cpython-312.pyc",
+    "detection_info": {
+      "file_path": "core\\__pycache__\\config.cpython-312.pyc",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 7,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:28.520823",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 16362,
+        "match_length": 40,
+        "confidence": 1.0,
+        "context": "00000000007c037c046b28000064029c0553002903614101000047657420696e666f726d6174696f6e2061626f7574206120636f6e66696775726174696f6e2073657474696e672e0a20202020202020200a2020202020202020417267733a0a2020202020202020",
+        "file_size": 22091,
+        "file_hash_md5": "07365876a34c72ba874f95f29fe94a25",
+        "file_hash_sha256": "83cb57d86a11684592ca9055202aaafe475ebc317329b333995043adfe161852",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:30.611834",
+    "restored": false
+  },
+  "396eac83-2c16-4cfb-93b6-3d7099720050": {
+    "quarantine_id": "396eac83-2c16-4cfb-93b6-3d7099720050",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\core\\__pycache__\\file_utils.cpython-312.pyc",
+    "quarantine_path": "quarantine\\files\\396eac83-2c16-4cfb-93b6-3d7099720050_file_utils.cpython-312.pyc",
+    "detection_info": {
+      "file_path": "core\\__pycache__\\file_utils.cpython-312.pyc",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 4,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:28.530384",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 6676,
+        "match_length": 23,
+        "confidence": 0.575,
+        "context": "733a0a20202020202020205065726d697373696f6e20737472696e6720696e20666f726d6174206c696b652027727778722d2d722d2d270a20202020202020200a202020205261697365733a0a20202020202020204669",
+        "file_size": 12061,
+        "file_hash_md5": "e45ba50e6b31ca10b046ee4b7e64c1c5",
+        "file_hash_sha256": "9316a09665466d682678004399eb701b0541208ac7ef7d288e52cbbd999b9227",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:30.633537",
+    "restored": false
+  },
+  "a5108184-7af8-4230-b5ce-6f42c88db121": {
+    "quarantine_id": "a5108184-7af8-4230-b5ce-6f42c88db121",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\core\\__pycache__\\logging_config.cpython-312.pyc",
+    "quarantine_path": "quarantine\\files\\a5108184-7af8-4230-b5ce-6f42c88db121_logging_config.cpython-312.pyc",
+    "detection_info": {
+      "file_path": "core\\__pycache__\\logging_config.cpython-312.pyc",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 6,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:28.566168",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 2165,
+        "match_length": 36,
+        "confidence": 0.9,
+        "context": "68616e646c657273da05636c656172da09466f726d6174746572da0a6c6f675f666f726d6174da0d53747265616d48616e646c6572da0c736574466f726d6174746572da0a61646448616e646c6572da086c6f675f66696c657203000000da0670617265",
+        "file_size": 5455,
+        "file_hash_md5": "36a19b45f7aa22b784dd92e311e27c51",
+        "file_hash_sha256": "e7ffcf74f36d4349b4f27e0f8e04097a1234aeb4834e85fe91a1b381a1af3dc1",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:30.659903",
+    "restored": false
+  },
+  "0e2103f1-7fa5-47ec-8836-f67ce94b857b": {
+    "quarantine_id": "0e2103f1-7fa5-47ec-8836-f67ce94b857b",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\core\\__pycache__\\models.cpython-312.pyc",
+    "quarantine_path": "quarantine\\files\\0e2103f1-7fa5-47ec-8836-f67ce94b857b_models.cpython-312.pyc",
+    "detection_info": {
+      "file_path": "core\\__pycache__\\models.cpython-312.pyc",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 7,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:28.578941",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 457,
+        "match_length": 49,
+        "confidence": 1.0,
+        "context": "000000ab000000000000005a187906291d7a3f0a436f72652064617461206d6f64656c7320666f722074686520456475636174696f6e616c20416e7469766972757320526573656172636820546f6f6c2e0ae9000000002903da0964617461636c617373da056669656c64da0661736469",
+        "file_size": 15210,
+        "file_hash_md5": "d9aac029b618b4b9c4e8ccfba6113de8",
+        "file_hash_sha256": "5ae523c405d7a4f2e1013e63cc9418a2dea50600667fd8d709cefc1017afde32",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:30.689009",
+    "restored": false
+  },
+  "9bdf1615-cabb-44d4-b032-d120bc355d57": {
+    "quarantine_id": "9bdf1615-cabb-44d4-b032-d120bc355d57",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\core\\__pycache__\\integrated_scanner.cpython-312.pyc",
+    "quarantine_path": "quarantine\\files\\9bdf1615-cabb-44d4-b032-d120bc355d57_integrated_scanner.cpython-312.pyc",
+    "detection_info": {
+      "file_path": "core\\__pycache__\\integrated_scanner.cpython-312.pyc",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 4,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:28.567482",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 842,
+        "match_length": 26,
+        "confidence": 0.65,
+        "context": "6420746872656174732eda0a71756172616e74696e65da0669676e6f7265da0664656c657465da04736b69704e2908da085f5f6e616d655f5fda0a5f5f6d6f64756c655f5fda0c5f5f7175616c6e616d655f5fda075f5f646f63",
+        "file_size": 26631,
+        "file_hash_md5": "12af44961ddc2e27b0c876dc2718a768",
+        "file_hash_sha256": "a23974fcc1801c9848f025d403e9cd6929487c6a95786bdeb313a5076682da4c",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:30.714335",
+    "restored": false
+  },
+  "0d5dbceb-bfd2-4b55-b112-d0579ca95b03": {
+    "quarantine_id": "0d5dbceb-bfd2-4b55-b112-d0579ca95b03",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\core\\__pycache__\\scan_engine.cpython-312.pyc",
+    "quarantine_path": "quarantine\\files\\0d5dbceb-bfd2-4b55-b112-d0579ca95b03_scan_engine.cpython-312.pyc",
+    "detection_info": {
+      "file_path": "core\\__pycache__\\scan_engine.cpython-312.pyc",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 4,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:28.598502",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 1086,
+        "match_length": 26,
+        "confidence": 0.65,
+        "context": "6420746872656174732eda0a71756172616e74696e65da0669676e6f7265da0664656c657465da04736b69704e2908da085f5f6e616d655f5fda0a5f5f6d6f64756c655f5fda0c5f5f7175616c6e616d655f5fda075f5f646f63",
+        "file_size": 45902,
+        "file_hash_md5": "14a404f97deeaaa8980fc3c276dfec75",
+        "file_hash_sha256": "24158ba73e6b304d841f33d80a2880629245ddd96a2dc0cf5b2bf1eeeeae7d99",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:30.746278",
+    "restored": false
+  },
+  "e05587a7-8784-4025-bc39-ff69ac6fa898": {
+    "quarantine_id": "e05587a7-8784-4025-bc39-ff69ac6fa898",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\core\\__pycache__\\__init__.cpython-312.pyc",
+    "quarantine_path": "quarantine\\files\\e05587a7-8784-4025-bc39-ff69ac6fa898___init__.cpython-312.pyc",
+    "detection_info": {
+      "file_path": "core\\__pycache__\\__init__.cpython-312.pyc",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 7,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:28.637325",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 863,
+        "match_length": 40,
+        "confidence": 1.0,
+        "context": "007219000000721a000000721b0000004e291eda075f5f646f635f5fda066d6f64656c737203000000720400000072050000007206000000720700000072080000007209000000720a000000720b000000720c000000720d000000da0a66696c655f7574696c7372",
+        "file_size": 1176,
+        "file_hash_md5": "7b7f6458aa9b51b883b0098ef9251be6",
+        "file_hash_sha256": "f1b6afb2fc04b822a0ac346f1aabaad43fcc75afe41479b99eff945a4ef7ae2c",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:30.778624",
+    "restored": false
+  },
+  "f86b98ed-b5f3-40ae-9ea4-e32e261df1dd": {
+    "quarantine_id": "f86b98ed-b5f3-40ae-9ea4-e32e261df1dd",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\core\\__pycache__\\threat_handler.cpython-312.pyc",
+    "quarantine_path": "quarantine\\files\\f86b98ed-b5f3-40ae-9ea4-e32e261df1dd_threat_handler.cpython-312.pyc",
+    "detection_info": {
+      "file_path": "core\\__pycache__\\threat_handler.cpython-312.pyc",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 7,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:28.635060",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 3891,
+        "match_length": 125,
+        "confidence": 1.0,
+        "context": "6d656e64656420666f72207265616c2074687265617473297a2a20205b445d2044656c657465202d205065726d616e656e746c792064656c657465207468652066696c657a2320205b535d20536b6970202d20536b697020746869732066696c6520666f72206e6f777a3020205b485d2048656c70202d2053686f77206d6f726520696e666f726d6174696f6e2061626f7574206f7074696f6e737a200a456e74657220796f75722063686f696365205b512f492f442f532f485d3a20",
+        "file_size": 23424,
+        "file_hash_md5": "2af7d7ac1a2c5e1440d76f46cc79531f",
+        "file_hash_sha256": "ef5128ef2737158c2b4dfaa0219dfca4109734f569452706d06bb0ec4658d2a2",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:30.799942",
+    "restored": false
+  },
+  "412eec7a-4782-4138-ad78-7bb603601062": {
+    "quarantine_id": "412eec7a-4782-4138-ad78-7bb603601062",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\detection\\__pycache__\\behavioral_engine.cpython-312.pyc",
+    "quarantine_path": "quarantine\\files\\412eec7a-4782-4138-ad78-7bb603601062_behavioral_engine.cpython-312.pyc",
+    "detection_info": {
+      "file_path": "detection\\__pycache__\\behavioral_engine.cpython-312.pyc",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 7,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:28.650729",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 13314,
+        "match_length": 711,
+        "confidence": 1.0,
+        "context": "29087a26507265706172652064657461696c656420616e616c7973697320696e666f726d6174696f6e2e7244000000290372360000007246000000da0769735f686967682904da047479706572170000007218000000721a0000002902da0e746f74616c5f7061747465726e73da0f7061747465726e5f64657461696c732903da0573636f72657246000000da0d69735f737573706963696f75732905726800000072af0000007288000000da0d6372656174696f6e5f74696d65da116d6f64696669636174696f6e5f74696d652905da1466696c655f636861726163746572697374696373da10656e74726f70795f616e616c79736973da107061747465726e5f616e616c79736973da0f7269736b5f6173736573736d656e74da0d66696c655f6d65746164617461290f7236000000722800000072590000007299000000721600000072170000007218000000721a000000da146265686176696f72616c5f7468726573686f6c647268000000724c000000728800000072b4000000da0969736f666f726d617472b500000029067230000000723e000000723f00000072620000007235000000724000000073060000002020202020207225000000723c0000007a324265686176696f72616c416e616c79736973456e67696e652e5f707265706172655f616e616c797369735f64657461696c734501000073f30000008000f008002534e01b24d71b2cd11b2cd81d219f5b995bd71d3ad11d3ad81b2aa83ed11b3af10704210ef40c002326a068a32df110001e26f30f082412f10e001e269801f00b002122a70ea10ed82728a77da17dd82425a74aa14ad82324a739a139f309051516f00c001e26f10f082412f1050b210ef01a001a24d81d219f5b995bd71d3dd11d3dd8212ba874af7ba97bd72f4fd12f4fd1214ff10704200ef00c0019229f0e990ed81821d7182bd1182bd81f28d71f34d11f34d8212ad72138d12138d72142d12142d32144d8252ed72540d12540d7254ad1254ad3254cf10b061e0ef1311f100af0001f090af9f2120824127305000000b63643380a63010000000000000000",
+        "file_size": 18174,
+        "file_hash_md5": "a9f26b39dcfbe677051216048ecf8a07",
+        "file_hash_sha256": "55720af25ed79cc4a307b2bad16f7d2535aee0b5c76806708f9b5672a83b3a82",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:30.830935",
+    "restored": false
+  },
+  "290e85d0-71ea-4030-81a0-fa7fbb6a4111": {
+    "quarantine_id": "290e85d0-71ea-4030-81a0-fa7fbb6a4111",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\detection\\__pycache__\\default_signatures.cpython-312.pyc",
+    "quarantine_path": "quarantine\\files\\290e85d0-71ea-4030-81a0-fa7fbb6a4111_default_signatures.cpython-312.pyc",
+    "detection_info": {
+      "file_path": "detection\\__pycache__\\default_signatures.cpython-312.pyc",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 7,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:28.664813",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 2206,
+        "match_length": 1186,
+        "confidence": 1.0,
+        "context": "19537573706963696f757320426174636820436f6d6d616e647373180000002864656c7c666f726d61747c726d646972292e2a5c2a2e2a7a39446574656374732062617463682066696c6573207769746820706f74656e7469616c6c7920646573747275637469766520636f6d6d616e64737a11537573706963696f757320536372697074e907000000da0562617463687a4742617463682066696c657320776974682077696c64636172642064656c6574696f6e20636f6d6d616e64732063616e206265207573656420746f2064657374726f792064617461da16656475636174696f6e616c5f74726f6a616e5f73696d7a1c456475636174696f6e616c2054726f6a616e2053696d756c61746f72732b000000454455434154494f4e414c5f54524f4a414e5f5349474e41545552455f444f5f4e4f545f455845435554457a3a4861726d6c65737320656475636174696f6e616c207369676e61747572652073696d756c6174696e672074726f6a616e20646574656374696f6e7a13456475636174696f6e616c204d616c77617265e908000000da0654726f6a616e7a4d54686973207369676e61747572652073696d756c6174657320686f7720616e7469766972757320736f6674776172652064657465637473206b6e6f776e2074726f6a616e207061747465726e732904720c000000720d000000da0c6d616c776172655f74797065721b000000da14656475636174696f6e616c5f776f726d5f73696d7a1a456475636174696f6e616c20576f726d2053696d756c61746f72732d000000454455434154494f4e414c5f574f524d5f5245504c49434154494f4e5f5041545445524e5f4841524d4c4553537a384861726d6c65737320656475636174696f6e616c207369676e61747572652073696d756c6174696e6720776f726d20646574656374696f6ee909000000da04576f726d7a5254686973207369676e61747572652064656d6f6e7374726174657320686f7720776f726d7320617265206964656e746966696564206279207468656972207265706c69636174696f6e207061747465726e73da1472656769737472795f737461727475705f6d6f647a1d52656769737472792053746172747570204d6f64696669636174696f6e7344000000484b45595f43555252454e545f555345525c5c536f6674776172655c5c4d6963726f736f66745c5c57696e646f77735c5c43757272656e7456657273696f6e5c5c52756e7a384465746563747320617474656d70747320746f206d6f646966792057696e646f77732073746172747570207265676973747279206b6579737a1353797374656d204d6f64696669636174696f6ee905000000da0352756e7a424d616c77617265206f6674656e206164647320697473656c6620746f2073746172747570207265676973747279206b65797320666f722070657273697374656e63652903720c000000da0c72656769737472795f6b6579721b000000da12706f7765727368656c6c5f656e636f6465647a1a456e636f64656420506f7765725368656c6c20436f6d6d616e64731b000000706f7765727368656c6c2e2a2d456e636f646564436f6d6d616e647a314465746563747320506f7765725368656c6c20636f6d6d616e6473207769746820656e636f646564207061796c6f616473da0a506f7765725368656c6c7a47456e636f64656420506f7765725368656c6c20",
+        "file_size": 6189,
+        "file_hash_md5": "722509bea642d3d4cd1d06d28064de68",
+        "file_hash_sha256": "40ed3ffed6fd5ea44eabf1b4ff4b6800e6db6cc69a188817cca0910e81de07e7",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:30.861624",
+    "restored": false
+  },
+  "8d748626-7621-4c5e-9b18-009cb0ba25d1": {
+    "quarantine_id": "8d748626-7621-4c5e-9b18-009cb0ba25d1",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\detection\\__pycache__\\pattern_matcher.cpython-312.pyc",
+    "quarantine_path": "quarantine\\files\\8d748626-7621-4c5e-9b18-009cb0ba25d1_pattern_matcher.cpython-312.pyc",
+    "detection_info": {
+      "file_path": "detection\\__pycache__\\pattern_matcher.cpython-312.pyc",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 7,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:28.681922",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 14512,
+        "match_length": 97,
+        "confidence": 1.0,
+        "context": "6f6767696e675f636f6e6669677209000000da107369676e61747572655f6d6f64656c73720b000000720c000000720d0000007215000000723c000000720f0000007220000000727f000000721c000000721d000000721e000000da083c6d6f64756c653e7298000000010000007360000000f003010101f102020104f30600010adf0032d30032dd0021e5002add002adf0046d10046e109139048d3091d8006",
+        "file_size": 14696,
+        "file_hash_md5": "0312d550e9bfa5258c830ad6af5f0644",
+        "file_hash_sha256": "01d56c149a78abb6cdbf18261c50d6c3a9d1360f5406ec4c3b18590660450be7",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:30.887379",
+    "restored": false
+  },
+  "9724911c-44a3-446a-84f8-65065556a07b": {
+    "quarantine_id": "9724911c-44a3-446a-84f8-65065556a07b",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\detection\\__pycache__\\risk_scorer.cpython-312.pyc",
+    "quarantine_path": "quarantine\\files\\9724911c-44a3-446a-84f8-65065556a07b_risk_scorer.cpython-312.pyc",
+    "detection_info": {
+      "file_path": "detection\\__pycache__\\risk_scorer.cpython-312.pyc",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 7,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:28.696088",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 11490,
+        "match_length": 786,
+        "confidence": 1.0,
+        "context": "6d657374616d70732e72020000002902da086461746574696d65da0974696d6564656c7461e9010000002901da05686f75727372700000007a2a46696c652063726561746564207665727920726563656e746c79202877697468696e203120686f7572292901da046461797372710000007a2746696c65206372656174656420726563656e746c79202877697468696e20323420686f75727329e91e000000728a0000007a2146696c65206d6f646966696564206c6f6e67206166746572206372656174696f6e72720000007a164e6f726d616c2066696c652074696d657374616d7073da1174656d706f72616c5f616e616c79736973da0874656d706f72616c728c00000069100e00002904da0d6372656174696f6e5f74696d65da116d6f64696669636174696f6e5f74696d65da126372656174696f6e5f6167655f686f757273da166d6f64696669636174696f6e5f6167655f686f7572737278000000290972a300000072a4000000da036e6f7772ab00000072ac00000072220000007244000000da0969736f666f726d6174da0d746f74616c5f7365636f6e64732909722d000000724a00000072a300000072a400000072af000000da0c6372656174696f6e5f616765da106d6f64696669636174696f6e5f616765722500000072240000007309000000202020202020202020722000000072620000007a2b416476616e6365645269736b53636f7265722e5f63616c63756c6174655f74656d706f72616c5f7269736b2901000073060100008000e70830e00e168f6c896c8b6e8803d8171a9859d71d34d11d34d11734880cd81b1ea019d7213cd1213cd11b3cd00818f006000c189929a821d41a2cd20b2cd814178845d81a46894bd80d199949a831d41c2dd20d2dd814178845d81a43894be00e17d70e29d10e29a849d72c43d12c43d10e43c179d05658d44759d20d59d814178845d81a3d894be014178845d81a32884be40f19d81124d81823d81217d81317d71325d11325a06ad11331d81526e0212ad72138d12138d72142d12142d32144d8252ed72540d12540d7254ad1254ad3254cd82632d72640d12640d32642c054d12649d82a3ad72a48d12a48d32a4ac854d12a51f10905150ef40d0c100af0000c090a721f000000630300000000000000000000000d00000003000000",
+        "file_size": 25190,
+        "file_hash_md5": "0bd25d473c17249db8240e5fea2d2a5c",
+        "file_hash_sha256": "68c3eb0d0071a1a0e58d36942e10b9e9e5e3c4244e287f2e3bbbac278253c30c",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:30.911637",
+    "restored": false
+  },
+  "ce53965a-caea-4950-bfc1-66b9b80af23d": {
+    "quarantine_id": "ce53965a-caea-4950-bfc1-66b9b80af23d",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\detection\\__pycache__\\signature_database.cpython-312.pyc",
+    "quarantine_path": "quarantine\\files\\ce53965a-caea-4950-bfc1-66b9b80af23d_signature_database.cpython-312.pyc",
+    "detection_info": {
+      "file_path": "detection\\__pycache__\\signature_database.cpython-312.pyc",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 7,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:28.707414",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 7680,
+        "match_length": 434,
+        "confidence": 1.0,
+        "context": "6561745f63617465676f7279da0873657665726974797229000000da0969736f666f726d6174722a000000da07656e61626c6564723c000000723d000000723600000072310000007247000000722b0000007203000000722f00000072300000007232000000723300000072200000007234000000a906721a00000072480000007235000000722c000000723600000072370000007306000000202020202020721b000000da0d6164645f7369676e61747572657a265369676e617475726544617461626173654d616e616765722e6164645f7369676e61747572657800000073940100008000f0182a094201d81317d71327d11327d313298844d81519975b915b935d8846f006000d138f4e894ed01b57d81a23d71a30d11a30d01932f403010d34e00f158f7f897fd40f20dc1624d0273ab839d73b51d13b51d03a52d05262d02563d31664d01064f006000d138f4e894ef000051c10f00c00111ad71026d11026d81019970e910ed81019d71028d11028d7102ed1102ed81019d71021d11021d81019d71025d11025d81019d71029d11029d81019d71022d11022d81019d71026d11026d71030d11030d31032d81019d71026d11026d71030d11030d31032d8151ed71526d215269101a841dc1014970a910a9839d71b2dd11b2dd3102ef0170c120ef40b110d0ff026000d118f4b89",
+        "file_size": 18634,
+        "file_hash_md5": "e8e7d0bcadf993f9a6cd84c1a088034a",
+        "file_hash_sha256": "5252e104ec873c45e173d2efcb64a8382dc9a260666f5882f2c943032075e664",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:30.936063",
+    "restored": false
+  },
+  "2cc5b901-75f8-4d2e-87e7-3561a6798a9d": {
+    "quarantine_id": "2cc5b901-75f8-4d2e-87e7-3561a6798a9d",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\detection\\__pycache__\\signature_models.cpython-312.pyc",
+    "quarantine_path": "quarantine\\files\\2cc5b901-75f8-4d2e-87e7-3561a6798a9d_signature_models.cpython-312.pyc",
+    "detection_info": {
+      "file_path": "detection\\__pycache__\\signature_models.cpython-312.pyc",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 7,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:28.725983",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 264,
+        "match_length": 49,
+        "confidence": 1.0,
+        "context": "00005a117906290f7a480a5369676e6174757265206461746162617365206d6f64656c7320666f722074686520456475636174696f6e616c20416e7469766972757320526573656172636820546f6f6c2e0ae9000000002903da0964617461636c617373da056669656c64da0661736469",
+        "file_size": 5811,
+        "file_hash_md5": "0ca4f488d4dfa94556e2f7d3279c6fc4",
+        "file_hash_sha256": "02d81c0139da0886abdc795288f2675b234b4e03b579ab9450afd0ee7cf32352",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:30.964758",
+    "restored": false
+  },
+  "e5f1ae2c-5568-42f2-ba40-efad6b827133": {
+    "quarantine_id": "e5f1ae2c-5568-42f2-ba40-efad6b827133",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\detection\\__pycache__\\signature_engine.cpython-312.pyc",
+    "quarantine_path": "quarantine\\files\\e5f1ae2c-5568-42f2-ba40-efad6b827133_signature_engine.cpython-312.pyc",
+    "detection_info": {
+      "file_path": "detection\\__pycache__\\signature_engine.cpython-312.pyc",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 7,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:28.724987",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 14526,
+        "match_length": 654,
+        "confidence": 1.0,
+        "context": "646974696f6e206661696c65643a204e2910da107369676e61747572655f6d6f64656c7372a30000007273000000da077265706c61636572080000007252000000da087374726674696d6572150000007223000000723c0000007232000000722f0000007230000000723500000072360000007209000000290b7227000000723e00000072a0000000728600000072a1000000728e000000729500000072a3000000724000000072420000007238000000730b00000020202020202020202020207228000000da146164645f637573746f6d5f7369676e61747572657a245369676e6174757265456e67696e652e6164645f637573746f6d5f7369676e61747572651801000073e60000008000f0241d094b01dd0c37f006001e25a054a75aa15aa35cd72539d12539b823b873d32543d02444c041c468c76cc16cc36ed7465dd1465dd05e6dd3466ed0456fd01b70884cf406001922d81d29d81519d91f2ca85ed31f3cd8181fd81c27d8202fd81921d82428b814d1193ef41109190e8849f018000d118f4f894fd70c29d10c29a829d40c34f006000d11d70c21d10c21d40c23e40c128f4b894bd01a32b034b026d01839d40c3ad81317f8e40f18f20002094b01dc0c128f4c894cd01b3bb841b833d0193fd40c40dc1220d02345c061c053d02149d3124ad00c4afbf00502094b01fa731800000082422c422f00c22f09432303c23826431e03c31e054323037240000000630200000000000000000000000b00000003000000f3ca010000970009007c006a000000000000000000000000000000000000006a030000000000000000000000000000000000007c01ab010000000000007d027c0272977c026a040000000000000000000000000000000000007c026a060000000000000000000000000000000000007c026a080000000000000000000000000000000000006a0a0000000000000000000000000000000000007c026a0c000000000000000000",
+        "file_size": 20807,
+        "file_hash_md5": "a48a820b07b2194eeab0a32ab63038ff",
+        "file_hash_sha256": "6c89297952af4ae6883f1408de7a9dd7560e5bed57c74f60955d6f3325473025",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:30.987498",
+    "restored": false
+  },
+  "54d8f58d-7e1e-4940-a909-8df0a5402b30": {
+    "quarantine_id": "54d8f58d-7e1e-4940-a909-8df0a5402b30",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\detection\\__pycache__\\__init__.cpython-312.pyc",
+    "quarantine_path": "quarantine\\files\\54d8f58d-7e1e-4940-a909-8df0a5402b30___init__.cpython-312.pyc",
+    "detection_info": {
+      "file_path": "detection\\__pycache__\\__init__.cpython-312.pyc",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 7,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:28.742468",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 707,
+        "match_length": 95,
+        "confidence": 1.0,
+        "context": "0072130000004e291ada075f5f646f635f5fda107369676e61747572655f6d6f64656c737203000000720400000072050000007206000000da127369676e61747572655f64617461626173657207000000da0f7061747465726e5f6d61746368657272080000007209000000da107369676e61747572655f656e67696e65720a000000da1264656661756c745f7369676e617475726573720b000000720c00",
+        "file_size": 1056,
+        "file_hash_md5": "72b38e3219467c9c85f2ff64dc7d6b2f",
+        "file_hash_sha256": "9aefb9f7aad9558bc521c8a37017f2ffca5708e204d7a13319f0c611bfa3dbb9",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:31.051973",
+    "restored": false
+  },
+  "6a378b17-fe74-4180-9ad3-24966e5f2435": {
+    "quarantine_id": "6a378b17-fe74-4180-9ad3-24966e5f2435",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\quarantine\\files\\6e42c2a1-fb55-4652-ab23-17de05797b50___init__.cpython-312.pyc",
+    "quarantine_path": "quarantine\\files\\6a378b17-fe74-4180-9ad3-24966e5f2435_6e42c2a1-fb55-4652-ab23-17de05797b50___init__.cpython-312.pyc",
+    "detection_info": {
+      "file_path": "quarantine\\files\\6e42c2a1-fb55-4652-ab23-17de05797b50___init__.cpython-312.pyc",
+      "detection_type": "behavioral",
+      "threat_name": "Suspicious behavior (risk: 9)",
+      "risk_score": 9,
+      "signature_id": null,
+      "timestamp": "2025-10-22T00:59:28.761631",
+      "details": {
+        "entropy": 5.2490890698236035,
+        "suspicious_patterns": [
+          "File has multiple extensions (possible disguise attempt)",
+          "Unusually small executable (possible dropper)",
+          "Filename appears randomly generated"
+        ],
+        "analysis_details": {
+          "file_characteristics": {
+            "is_executable": true,
+            "is_suspicious_type": false,
+            "high_entropy": false,
+            "size_category": "tiny",
+            "is_hidden": false,
+            "has_double_extension": true,
+            "entropy_score": 5.2490890698236035,
+            "size_bytes": 593
+          },
+          "entropy_analysis": {
+            "entropy": 5.2490890698236035,
+            "threshold": 7.5,
+            "is_high": false
+          },
+          "pattern_analysis": {
+            "total_patterns": 3,
+            "pattern_details": [
+              {
+                "type": "double_extension",
+                "description": "File has multiple extensions (possible disguise attempt)",
+                "severity": 8,
+                "details": {
+                  "extensions": [
+                    ".cpython-312",
+                    ".pyc"
+                  ]
+                }
+              },
+              {
+                "type": "tiny_executable",
+                "description": "Unusually small executable (possible dropper)",
+                "severity": 6,
+                "details": {
+                  "size": 593,
+                  "size_category": "tiny"
+                }
+              },
+              {
+                "type": "random_filename",
+                "description": "Filename appears randomly generated",
+                "severity": 5,
+                "details": {
+                  "filename": "6e42c2a1-fb55-4652-ab23-17de05797b50___init__.cpython-312.pyc"
+                }
+              }
+            ]
+          },
+          "risk_assessment": {
+            "score": 9,
+            "threshold": 7,
+            "is_suspicious": true
+          },
+          "file_metadata": {
+            "size": 593,
+            "type": "application/x-python-code",
+            "permissions": "rw-rw-rw-",
+            "creation_time": "2025-10-22T00:12:13.976829",
+            "modification_time": "2025-10-21T23:28:48.292474"
+          }
+        },
+        "behavioral_threshold": 7
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:31.094976",
+    "restored": false
+  },
+  "4c2774b6-7a39-4390-9a24-c64da3c45626": {
+    "quarantine_id": "4c2774b6-7a39-4390-9a24-c64da3c45626",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\quarantine\\files\\36086586-1c95-401a-a21b-09c579c5667f_sample_manager.cpython-312.pyc",
+    "quarantine_path": "quarantine\\files\\4c2774b6-7a39-4390-9a24-c64da3c45626_36086586-1c95-401a-a21b-09c579c5667f_sample_manager.cpython-312.pyc",
+    "detection_info": {
+      "file_path": "quarantine\\files\\36086586-1c95-401a-a21b-09c579c5667f_sample_manager.cpython-312.pyc",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 6,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:28.753327",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 5715,
+        "match_length": 38,
+        "confidence": 0.95,
+        "context": "01000000000000820164067d057e05770177007803590077012907616601000044656c657465206120746573742073616d706c6520616e6420697473206d657461646174612e0a20202020202020200a2020202020202020417267733a0a2020202020202020",
+        "file_size": 16545,
+        "file_hash_md5": "e0af2fe3af9aeb3297d13d4e44953d7d",
+        "file_hash_sha256": "c8e29dfe01215898684c98454bd8149f5201d776dc810d055d4c8bf26e77af63",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:31.143580",
+    "restored": false
+  },
+  "fb6beee3-430f-415c-af41-b0d8e210c425": {
+    "quarantine_id": "fb6beee3-430f-415c-af41-b0d8e210c425",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\quarantine\\files\\7ae58d6a-86f4-4c46-b1d8-b02b319f270a_sample_generator.py",
+    "quarantine_path": "quarantine\\files\\fb6beee3-430f-415c-af41-b0d8e210c425_7ae58d6a-86f4-4c46-b1d8-b02b319f270a_sample_generator.py",
+    "detection_info": {
+      "file_path": "quarantine\\files\\7ae58d6a-86f4-4c46-b1d8-b02b319f270a_sample_generator.py",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 4,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:28.766721",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 219,
+        "match_length": 23,
+        "confidence": 0.575,
+        "context": "74204c6973742c204f7074696f6e616c0d0a0d0a66726f6d20636f72652e6d6f64656c7320696d706f72742053616d706c65496e666f0d0a66726f6d20636f72652e657863657074696f6e7320696d706f727420416e74",
+        "file_size": 10391,
+        "file_hash_md5": "55ce1503a68b4e650806f1ce832ee7b8",
+        "file_hash_sha256": "6f7d666a56c114f77efa0b1c527d56ff2f8d4cc2f35e4abed89d55640ff0cf39",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:31.699936",
+    "restored": false
+  },
+  "39f71aae-ffb7-4e34-b263-fad8ca3f707b": {
+    "quarantine_id": "39f71aae-ffb7-4e34-b263-fad8ca3f707b",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\quarantine\\files\\c0c7654f-cd83-44d4-b5e2-264975c62c79_sample_cli.py",
+    "quarantine_path": "quarantine\\files\\39f71aae-ffb7-4e34-b263-fad8ca3f707b_c0c7654f-cd83-44d4-b5e2-264975c62c79_sample_cli.py",
+    "detection_info": {
+      "file_path": "quarantine\\files\\c0c7654f-cd83-44d4-b5e2-264975c62c79_sample_cli.py",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 7,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:28.778844",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 3888,
+        "match_length": 61,
+        "confidence": 1.0,
+        "context": "20207072696e742866224572726f723a207b657d22290d0a0d0a0d0a6465662064656c6574655f73616d706c655f636f6d6d616e64286d616e616765723a2053616d706c654d616e616765722c206172677329202d3e204e6f6e653a0d0a2020202022222248616e646c652073616d706c652064656c6574696f6e2063",
+        "file_size": 11069,
+        "file_hash_md5": "1675ccc1c26757881b1f56e22ab04ade",
+        "file_hash_sha256": "53a08b4059029992b950d9be28b7021f37d3bbaba942713ce4d6cd1400aa15be",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:31.870640",
+    "restored": false
+  },
+  "10644bd4-3242-4e29-a146-875c56248e6b": {
+    "quarantine_id": "10644bd4-3242-4e29-a146-875c56248e6b",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\quarantine\\files\\e540d9df-9a09-48cb-97b6-1a2c5a8d8021_sample_manager.py",
+    "quarantine_path": "quarantine\\files\\10644bd4-3242-4e29-a146-875c56248e6b_e540d9df-9a09-48cb-97b6-1a2c5a8d8021_sample_manager.py",
+    "detection_info": {
+      "file_path": "quarantine\\files\\e540d9df-9a09-48cb-97b6-1a2c5a8d8021_sample_manager.py",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 4,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:28.790399",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 241,
+        "match_length": 23,
+        "confidence": 0.575,
+        "context": "204f7074696f6e616c2c20556e696f6e0d0a0d0a66726f6d20636f72652e6d6f64656c7320696d706f72742053616d706c65496e666f0d0a66726f6d20636f72652e657863657074696f6e7320696d706f727420416e74",
+        "file_size": 13546,
+        "file_hash_md5": "9326d22bea43155fc02ef30f3b2c17f6",
+        "file_hash_sha256": "adb358090c30b5d413173e27b9b0f8b3ebb8af6bcabee174ee00bd452dfa35f8",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:31.947154",
+    "restored": false
+  },
+  "9a1ca770-ffe5-4466-bf3d-26cfe689d753": {
+    "quarantine_id": "9a1ca770-ffe5-4466-bf3d-26cfe689d753",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\quarantine\\files\\ed063f77-8680-4aa8-b908-a6d808e1133b_sample_generator.cpython-312.pyc",
+    "quarantine_path": "quarantine\\files\\9a1ca770-ffe5-4466-bf3d-26cfe689d753_ed063f77-8680-4aa8-b908-a6d808e1133b_sample_generator.cpython-312.pyc",
+    "detection_info": {
+      "file_path": "quarantine\\files\\ed063f77-8680-4aa8-b908-a6d808e1133b_sample_generator.cpython-312.pyc",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 7,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:28.811651",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 8532,
+        "match_length": 194,
+        "confidence": 1.0,
+        "context": "6e657261746564206f6e3a20da010a290472030000007231000000da0969736f666f726d617472430000002903721f000000723c000000da0d636f6e74656e745f6c696e65737303000000202020721100000072450000007a3953616d706c6547656e657261746f722e5f67656e65726174655f6861726d6c6573735f636f6e74656e745f776974685f7369676e6174757265cc000000735a0000008000f008000d4501d80c42d80c0ed80e27a80ed02737d00c38d80c0ed80c49d80c40d80c0ed80c31d80e1c9c589f5c995c9b5ed71d35d11d35d31d37d01c38d00c39f0150b190a880df01a0010148f798979981dd30f27d00827721000000063020000000000",
+        "file_size": 11053,
+        "file_hash_md5": "61104918a01c4444201035ab6a9ae1de",
+        "file_hash_sha256": "36f2ad78758eb1ca028b9e384dc175defbf8ed718210d59ed1130d4639ac3c25",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:31.986104",
+    "restored": false
+  },
+  "489eea15-6e10-4e43-a85c-bda6b022381e": {
+    "quarantine_id": "489eea15-6e10-4e43-a85c-bda6b022381e",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\quarantine\\files\\f05eb36e-1e77-44c9-a118-b1b69581c7ab_sample_cli.cpython-312.pyc",
+    "quarantine_path": "quarantine\\files\\489eea15-6e10-4e43-a85c-bda6b022381e_f05eb36e-1e77-44c9-a118-b1b69581c7ab_sample_cli.cpython-312.pyc",
+    "detection_info": {
+      "file_path": "quarantine\\files\\f05eb36e-1e77-44c9-a118-b1b69581c7ab_sample_cli.cpython-312.pyc",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 7,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:28.812651",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 6022,
+        "match_length": 149,
+        "confidence": 1.0,
+        "context": "7d057e0577017700780359007701290d7a1f48616e646c652073616d706c652064656c6574696f6e20636f6d6d616e642e4e723200000072330000007a0f44656c6574652073616d706c6520277a09272028792f4e293f20da01797a1344656c6574696f6e2063616e63656c6c65642e542901da07636f6e6669726d7514000000e29c932044656c657465642073616d706c653a207a184661696c656420746f2064656c6574652073616d706c652e7214000000290a72180000007234000000720f00000072350000007216000000da05666f7263",
+        "file_size": 14466,
+        "file_hash_md5": "6d1f5a84c31bd2bd8249eab6b10c7d28",
+        "file_hash_sha256": "88b8fa8cfe1b07f42401aed3c00bd46a7f8a8d684501ab610c99ba3491b2c672",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:32.016509",
+    "restored": false
+  },
+  "43afb511-13e5-4ece-9f5f-072328b3dbee": {
+    "quarantine_id": "43afb511-13e5-4ece-9f5f-072328b3dbee",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\quarantine\\__pycache__\\__init__.cpython-312.pyc",
+    "quarantine_path": "quarantine\\files\\43afb511-13e5-4ece-9f5f-072328b3dbee___init__.cpython-312.pyc",
+    "detection_info": {
+      "file_path": "quarantine\\__pycache__\\__init__.cpython-312.pyc",
+      "detection_type": "behavioral",
+      "threat_name": "Suspicious behavior (risk: 7)",
+      "risk_score": 7,
+      "signature_id": null,
+      "timestamp": "2025-10-22T00:59:28.865269",
+      "details": {
+        "entropy": 5.200517902832683,
+        "suspicious_patterns": [
+          "File has multiple extensions (possible disguise attempt)",
+          "Unusually small executable (possible dropper)"
+        ],
+        "analysis_details": {
+          "file_characteristics": {
+            "is_executable": true,
+            "is_suspicious_type": false,
+            "high_entropy": false,
+            "size_category": "tiny",
+            "is_hidden": false,
+            "has_double_extension": true,
+            "entropy_score": 5.200517902832683,
+            "size_bytes": 323
+          },
+          "entropy_analysis": {
+            "entropy": 5.200517902832683,
+            "threshold": 7.5,
+            "is_high": false
+          },
+          "pattern_analysis": {
+            "total_patterns": 2,
+            "pattern_details": [
+              {
+                "type": "double_extension",
+                "description": "File has multiple extensions (possible disguise attempt)",
+                "severity": 8,
+                "details": {
+                  "extensions": [
+                    ".cpython-312",
+                    ".pyc"
+                  ]
+                }
+              },
+              {
+                "type": "tiny_executable",
+                "description": "Unusually small executable (possible dropper)",
+                "severity": 6,
+                "details": {
+                  "size": 323,
+                  "size_category": "tiny"
+                }
+              }
+            ]
+          },
+          "risk_assessment": {
+            "score": 7,
+            "threshold": 7,
+            "is_suspicious": true
+          },
+          "file_metadata": {
+            "size": 323,
+            "type": "application/x-python-code",
+            "permissions": "rw-rw-rw-",
+            "creation_time": "2025-10-21T23:40:47.396997",
+            "modification_time": "2025-10-21T23:40:47.398038"
+          }
+        },
+        "behavioral_threshold": 7
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:32.060355",
+    "restored": false
+  },
+  "2143f5d1-ee5e-4978-87b2-ad38e8016674": {
+    "quarantine_id": "2143f5d1-ee5e-4978-87b2-ad38e8016674",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\quarantine\\__pycache__\\quarantine_cli.cpython-312.pyc",
+    "quarantine_path": "quarantine\\files\\2143f5d1-ee5e-4978-87b2-ad38e8016674_quarantine_cli.cpython-312.pyc",
+    "detection_info": {
+      "file_path": "quarantine\\__pycache__\\quarantine_cli.cpython-312.pyc",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 7,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:28.848161",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 4501,
+        "match_length": 643,
+        "confidence": 1.0,
+        "context": "0000007215000000721000000072110000007a16446574656374696f6e20496e666f726d6174696f6e3a7a0f2020546872656174204e616d653a20721700000072180000007a122020446574656374696f6e2054696d653a2072190000007a1520204164646974696f6e616c2044657461696c733a7a04202020207a023a207a19202051756172616e74696e65642046696c652053697a653a207a06206279746573752a000000202051756172616e74696e65642046696c65205374617475733a20e29c932046696c6520657869737473752b000000202051756172616e74696e65642046696c65205374617475733a20e29c972046696c65206d697373696e67721a0000002916da146765745f71756172616e74696e655f656e7472797222000000721c0000007223000000da0f71756172616e74696e655f7061746872240000007225000000720f000000721f0000007226000000721e00000072200000007227000000da0974696d657374616d707228000000da0764657461696c73da056974656d737203000000da06657869737473da0473746174da0773745f73697a6572290000002907720b000000722a000000722d000000da036b657972200000007234000000722c000000730700000020202020202020722f000000da1773686f775f71756172616e74696e655f636f6d6d616e64723c0000003600000073350200008000f00426051dd81017d7102cd1102ca854d72d3fd12d3fd310408805e10f14dc0c11d0122fd40c30d80c12e4080dd00e23d40824dc080d90069075d7172ad1172ad0162bd00e2cd4082ddc080dd01021a025d72235d12235d02136d00e37d40838dc080dd01023a045d72439d12439d0233ad00e3bd4083cdc080d900fa005d72035d12035d7203ed1203ed03f52d32053d01f54d00e55d40856dc080d900aa815af1eaa1e993ab858d01a46d00e47d40848dc080d8c07e4080dd00e26d4",
+        "file_size": 18655,
+        "file_hash_md5": "5713ac3e0fb59e6c61dbfaac926c2d93",
+        "file_hash_sha256": "7483f269cc0d48466902f0ab7d4861f679a4e7cf9da6fa21c4ea507901de4126",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:32.087483",
+    "restored": false
+  },
+  "5ac173a7-7bea-4919-9fc6-99eebf7345e2": {
+    "quarantine_id": "5ac173a7-7bea-4919-9fc6-99eebf7345e2",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\quarantine\\__pycache__\\quarantine_manager.cpython-312.pyc",
+    "quarantine_path": "quarantine\\files\\5ac173a7-7bea-4919-9fc6-99eebf7345e2_quarantine_manager.cpython-312.pyc",
+    "detection_info": {
+      "file_path": "quarantine\\__pycache__\\quarantine_manager.cpython-312.pyc",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 7,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:28.865269",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 7916,
+        "match_length": 44,
+        "confidence": 1.0,
+        "context": "000000724f000000720f000000da07746f5f646963747250000000da0969736f666f726d61747229000000da06756e6c696e6b7215000000722a000000722b000000da077761726e696e67da0a6973696e7374616e6365720b00000029097217000000724b000000724c0000",
+        "file_size": 23277,
+        "file_hash_md5": "c5ef9a85f969fb8d5fcb24ef0c9c2f1b",
+        "file_hash_sha256": "a92ffed373516578896f16271ea82ef3e468ed4f38cda2ea1bd79005cde839da",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:32.121280",
+    "restored": false
+  },
+  "ac74462a-4e50-43c9-b46a-a21d0c9a4504": {
+    "quarantine_id": "ac74462a-4e50-43c9-b46a-a21d0c9a4504",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\quarantine\\__pycache__\\quarantine_interface.cpython-312.pyc",
+    "quarantine_path": "quarantine\\files\\ac74462a-4e50-43c9-b46a-a21d0c9a4504_quarantine_interface.cpython-312.pyc",
+    "detection_info": {
+      "file_path": "quarantine\\__pycache__\\quarantine_interface.cpython-312.pyc",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 5,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:28.859781",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 394,
+        "match_length": 30,
+        "confidence": 0.75,
+        "context": "6577696e672064657461696c732c20726573746f726174696f6e2c20616e642064656c6574696f6e206f662071756172616e74696e65642066696c65732e0a49742073657276657320617320746865206d61696e20696e74657266616365",
+        "file_size": 21080,
+        "file_hash_md5": "06a9a6f085919936a122f5738ef45c36",
+        "file_hash_sha256": "342cb08cfaba746f3e5bf9c9c679dae010b63031fdcb6c2458aa66615e7abf88",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:32.152908",
+    "restored": false
+  },
+  "c5cb13e7-b378-4359-aa64-934a8028ecec": {
+    "quarantine_id": "c5cb13e7-b378-4359-aa64-934a8028ecec",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\reporting\\__pycache__\\__init__.cpython-312.pyc",
+    "quarantine_path": "quarantine\\files\\c5cb13e7-b378-4359-aa64-934a8028ecec___init__.cpython-312.pyc",
+    "detection_info": {
+      "file_path": "reporting\\__pycache__\\__init__.cpython-312.pyc",
+      "detection_type": "behavioral",
+      "threat_name": "Suspicious behavior (risk: 7)",
+      "risk_score": 7,
+      "signature_id": null,
+      "timestamp": "2025-10-22T00:59:28.936025",
+      "details": {
+        "entropy": 5.260019471333996,
+        "suspicious_patterns": [
+          "File has multiple extensions (possible disguise attempt)",
+          "Unusually small executable (possible dropper)"
+        ],
+        "analysis_details": {
+          "file_characteristics": {
+            "is_executable": true,
+            "is_suspicious_type": false,
+            "high_entropy": false,
+            "size_category": "tiny",
+            "is_hidden": false,
+            "has_double_extension": true,
+            "entropy_score": 5.260019471333996,
+            "size_bytes": 998
+          },
+          "entropy_analysis": {
+            "entropy": 5.260019471333996,
+            "threshold": 7.5,
+            "is_high": false
+          },
+          "pattern_analysis": {
+            "total_patterns": 2,
+            "pattern_details": [
+              {
+                "type": "double_extension",
+                "description": "File has multiple extensions (possible disguise attempt)",
+                "severity": 8,
+                "details": {
+                  "extensions": [
+                    ".cpython-312",
+                    ".pyc"
+                  ]
+                }
+              },
+              {
+                "type": "tiny_executable",
+                "description": "Unusually small executable (possible dropper)",
+                "severity": 6,
+                "details": {
+                  "size": 998,
+                  "size_category": "tiny"
+                }
+              }
+            ]
+          },
+          "risk_assessment": {
+            "score": 7,
+            "threshold": 7,
+            "is_suspicious": true
+          },
+          "file_metadata": {
+            "size": 998,
+            "type": "application/x-python-code",
+            "permissions": "rw-rw-rw-",
+            "creation_time": "2025-10-22T00:28:25.461156",
+            "modification_time": "2025-10-22T00:28:25.462154"
+          }
+        },
+        "behavioral_threshold": 7
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:32.186769",
+    "restored": false
+  },
+  "e74276c1-c40e-4419-9f10-2a9ecb6968da": {
+    "quarantine_id": "e74276c1-c40e-4419-9f10-2a9ecb6968da",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\reporting\\__pycache__\\educational_report_system.cpython-312.pyc",
+    "quarantine_path": "quarantine\\files\\e74276c1-c40e-4419-9f10-2a9ecb6968da_educational_report_system.cpython-312.pyc",
+    "detection_info": {
+      "file_path": "reporting\\__pycache__\\educational_report_system.cpython-312.pyc",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 7,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:28.920333",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 1832,
+        "match_length": 341,
+        "confidence": 1.0,
+        "context": "0e8f0b890bd01439d5083af300000000da0c7363616e5f726573756c7473da0b666f726d61745f74797065da18696e636c7564655f6c6561726e696e675f636f6e74656e74da0672657475726e630400000000000000000000000400000003000000f3d200000097007c0173117c006a010000000000000000000000000000000000007c02ab0100000000000053007c006a020000000000000000000000000000000000006a050000000000000000000000000000000000007c017c02ab020000000000007d047c0372057c0264016b37000072027c0453007c006a070000000000000000000000000000000000007c01ab010000000000007d057c0464027a0000007c057a0000007d06740800000000000000006a0b0000000000000000000000000000000000006403ab0100000000000001007c0653002904616f01000047656e657261746520616e20656475636174696f6e616c207265706f72742077697468206c6561726e696e6720636f6e74656e742e0a20202020202020200a2020202020202020417267733a0a2020202020202020",
+        "file_size": 26031,
+        "file_hash_md5": "5e05adc9dff5a5837f7ec244eeb75b23",
+        "file_hash_sha256": "336c2ce278b7fc99be6028d695fe795a7d853f286e4bc2cdf29317f4f8c02374",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:32.211968",
+    "restored": false
+  },
+  "54907b52-7eb6-4fdd-b27d-a52813c6cf2e": {
+    "quarantine_id": "54907b52-7eb6-4fdd-b27d-a52813c6cf2e",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\reporting\\__pycache__\\educational_content.cpython-312.pyc",
+    "quarantine_path": "quarantine\\files\\54907b52-7eb6-4fdd-b27d-a52813c6cf2e_educational_content.cpython-312.pyc",
+    "detection_info": {
+      "file_path": "reporting\\__pycache__\\educational_content.cpython-312.pyc",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 7,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:28.916743",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 423,
+        "match_length": 43,
+        "confidence": 1.0,
+        "context": "73206d6f64756c652070726f766964657320656475636174696f6e616c20696e666f726d6174696f6e2061626f757420746872656174732c20646574656374696f6e206d6574686f64732c0a616e64206379626572736563757269747920636f6e636570747320746f2068",
+        "file_size": 42501,
+        "file_hash_md5": "8b0ea093221e8c1b90f30778c8f3b36a",
+        "file_hash_sha256": "1b262067637a821ed78866df5c96eda9b1e79a6ed3bafee8b82c50df912447cd",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:32.240264",
+    "restored": false
+  },
+  "2774b92c-88bb-481e-ba56-c646248b6a19": {
+    "quarantine_id": "2774b92c-88bb-481e-ba56-c646248b6a19",
+    "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\reporting\\__pycache__\\report_generator.cpython-312.pyc",
+    "quarantine_path": "quarantine\\files\\2774b92c-88bb-481e-ba56-c646248b6a19_report_generator.cpython-312.pyc",
+    "detection_info": {
+      "file_path": "reporting\\__pycache__\\report_generator.cpython-312.pyc",
+      "detection_type": "signature",
+      "threat_name": "Suspicious Batch Commands",
+      "risk_score": 7,
+      "signature_id": "batch_file_suspicious",
+      "timestamp": "2025-10-22T00:59:28.939395",
+      "details": {
+        "signature_id": "batch_file_suspicious",
+        "signature_type": "pattern_match",
+        "match_offset": 499,
+        "match_length": 62,
+        "confidence": 1.0,
+        "context": "69746820737570706f72740a666f72206d756c7469706c65206f757470757420666f726d61747320284a534f4e2c204353562c20746578742920616e642064657461696c656420737461746973746963732063616c63756c6174696f6e2e0ae9000000004e2901da04506174682904da044c697374da0444696374da0341",
+        "file_size": 31482,
+        "file_hash_md5": "333de97aee98813d24a940c86138aba4",
+        "file_hash_sha256": "51fe2e87f4e0774c0668cac2af0880be73fc649deebdc56103dfd4213601291d",
+        "threat_category": "Suspicious Script",
+        "educational_info": "Batch files with wildcard deletion commands can be used to destroy data",
+        "harmless": false
+      }
+    },
+    "quarantine_date": "2025-10-22T00:59:32.275800",
+    "restored": false
+  }
+}

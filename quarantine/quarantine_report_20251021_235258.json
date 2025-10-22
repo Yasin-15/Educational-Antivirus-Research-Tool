@@ -1,0 +1,50 @@
+{
+  "report_generated": "2025-10-21T23:52:58.860043",
+  "statistics": {
+    "total_quarantined": 1,
+    "active_quarantined": 1,
+    "restored_files": 0,
+    "signature_detections": 0,
+    "behavioral_detections": 1,
+    "quarantine_path": "quarantine",
+    "last_updated": "2025-10-21T23:52:58.860043"
+  },
+  "quarantined_files": [
+    {
+      "quarantine_id": "0338b551-e55a-4ced-9a39-6154c4135e8d",
+      "original_path": "C:\\Users\\YasinDev\\Documents\\Attack\\enhanced_cli_test.txt",
+      "quarantine_date": "2025-10-21T23:52:57.261702",
+      "restored": false,
+      "detection_info": {
+        "threat_name": "Enhanced.CLI.Test",
+        "detection_type": "behavioral",
+        "risk_score": 9,
+        "signature_id": null,
+        "timestamp": "2025-10-21T23:52:57.257703"
+      }
+    }
+  ],
+  "enhanced_statistics": {
+    "total_quarantined": 1,
+    "active_quarantined": 1,
+    "restored_files": 0,
+    "signature_detections": 0,
+    "behavioral_detections": 1,
+    "quarantine_path": "quarantine",
+    "last_updated": "2025-10-21T23:52:58.861255",
+    "age_analysis": {
+      "average_days": 0.0,
+      "oldest_days": 0,
+      "newest_days": 0
+    },
+    "risk_analysis": {
+      "average_risk_score": 9.0,
+      "high_risk_count": 1,
+      "high_risk_percentage": 100.0
+    },
+    "threat_analysis": {
+      "unique_threats": 1,
+      "total_detections": 1
+    }
+  }
+}

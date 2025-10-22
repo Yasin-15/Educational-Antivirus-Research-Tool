@@ -1,0 +1,33 @@
+[
+  {
+    "sample_id": "eicar_20251021_231816",
+    "name": "test_eicar.txt",
+    "sample_type": "eicar",
+    "description": "EICAR Standard Antivirus Test File - Harmless test string recognized by all antivirus software",
+    "creation_date": "2025-10-21T23:18:16.267887",
+    "file_path": "test_samples\\test_eicar.txt",
+    "signatures": [
+      "EICAR-Test-File"
+    ]
+  },
+  {
+    "sample_id": "custom_TestVirus.A_20251021_231816",
+    "name": "test_virus.bin",
+    "sample_type": "custom_signature",
+    "description": "Custom test file with embedded TestVirus.A signature - Harmless educational sample",
+    "creation_date": "2025-10-21T23:18:16.272890",
+    "file_path": "test_samples\\test_virus.bin",
+    "signatures": [
+      "TestVirus.A"
+    ]
+  },
+  {
+    "sample_id": "behavioral_entropy_20251021_231816",
+    "name": "test_high_entropy.bin",
+    "sample_type": "behavioral_trigger",
+    "description": "High entropy test file - Designed to trigger behavioral analysis due to random data patterns",
+    "creation_date": "2025-10-21T23:18:16.280891",
+    "file_path": "test_samples\\test_high_entropy.bin",
+    "signatures": []
+  }
+]
