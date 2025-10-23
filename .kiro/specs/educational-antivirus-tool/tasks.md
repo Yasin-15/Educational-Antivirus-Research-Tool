@@ -322,7 +322,7 @@
     - _Requirements: 7.1, 7.2_
 
   
-  - [-] 12.2 Add error handling and user guidance
+  - [x] 12.2 Add error handling and user guidance
 
 
 

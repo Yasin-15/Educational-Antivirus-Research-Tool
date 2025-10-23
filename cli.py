@@ -16,6 +16,7 @@ from core.exceptions import AntivirusError
 from core.sample_initialization import SampleInitializationManager, initialize_educational_databases
 from core.logging_config import setup_default_logging
 from core.error_handler import ErrorHandler, create_error_handler, handle_cli_error
+from core.enhanced_error_messages import format_error_for_cli
 
 logger = setup_default_logging()
 
@@ -93,10 +94,9 @@ class AntivirusCLI:
             if self.error_handler:
                 return handle_cli_error(e, self.verbose)
             else:
-                print(f"Error: {e}")
-                if self.verbose:
-                    import traceback
-                    traceback.print_exc()
+                # Use enhanced error messaging
+                error_message = format_error_for_cli(e, {'operation': 'cli_execution'}, self.verbose)
+                print(error_message)
                 return 1
     
     def _create_argument_parser(self) -> argparse.ArgumentParser:

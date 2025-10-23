@@ -16,6 +16,13 @@ from .logging_config import setup_default_logging
 
 logger = setup_default_logging()
 
+# Import user guidance system if available
+try:
+    from .user_guidance import create_user_guidance_system
+    USER_GUIDANCE_AVAILABLE = True
+except ImportError:
+    USER_GUIDANCE_AVAILABLE = False
+
 
 class ErrorCategory:
     """Error category constants."""
@@ -549,6 +556,12 @@ class ErrorHandler:
         self.verbose = verbose
         self.guidance_manager = UserGuidanceManager()
         
+        # Initialize contextual help system if available
+        if USER_GUIDANCE_AVAILABLE:
+            self.contextual_help = create_user_guidance_system()
+        else:
+            self.contextual_help = None
+        
     def handle_error(self, error: Exception, context: Optional[Dict[str, Any]] = None) -> None:
         """Handle an error with comprehensive guidance.
         
@@ -568,6 +581,29 @@ class ErrorHandler:
         
         # Log guidance for debugging
         logger.debug(f"Error guidance: {guidance}")
+        
+        # Provide contextual help if available
+        if self.contextual_help and context:
+            contextual_help = self.contextual_help.get_contextual_help({
+                'operation': context.get('operation', ''),
+                'error_type': type(error).__name__,
+                'error_message': str(error)
+            })
+            
+            if contextual_help.get('suggestions'):
+                print("\n💡 Additional suggestions:")
+                for suggestion in contextual_help['suggestions']:
+                    print(f"  • {suggestion}")
+            
+            if contextual_help.get('quick_fixes'):
+                print("\n🔧 Quick fixes to try:")
+                for fix in contextual_help['quick_fixes']:
+                    print(f"  • {fix}")
+            
+            if contextual_help.get('learning_resources'):
+                print("\n📚 Learning resources:")
+                for resource in contextual_help['learning_resources']:
+                    print(f"  • {resource}")
     
     def handle_warning(self, message: str, context: Optional[Dict[str, Any]] = None) -> None:
         """Handle a warning with user guidance.

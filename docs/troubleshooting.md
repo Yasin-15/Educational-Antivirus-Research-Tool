@@ -325,6 +325,15 @@ for package in sorted(installed_packages, key=lambda x: x.project_name):
 # Launch interactive help
 python main.py help-system
 
+# Interactive troubleshooting assistant
+python main.py troubleshoot
+
+# Run comprehensive system diagnostics
+python main.py troubleshoot --check-all
+
+# Attempt automatic fixes for common issues
+python main.py troubleshoot --fix-common
+
 # View usage examples
 python examples/usage_examples.py
 
@@ -447,4 +456,259 @@ educational-antivirus/
 └── logs/
 ```
 
-Remember: This is an educational tool designed for learning. When in doubt, use the interactive help system and educational workflows to understand proper usage patterns.
+## 🎓 Educational Usage Guidance
+
+### Getting Started with Learning
+
+**First-Time Users:**
+1. **Complete Initial Setup:**
+   ```bash
+   # Install dependencies
+   pip install -r requirements.txt
+   
+   # Initialize educational databases
+   python main.py init-samples
+   
+   # Verify setup
+   python main.py config show
+   ```
+
+2. **Start with Beginner Workflow:**
+   ```bash
+   python main.py examples beginner
+   ```
+
+3. **Use Interactive Help:**
+   ```bash
+   python main.py help-system
+   ```
+
+### Learning Progression
+
+**Beginner Level:**
+- Focus on basic scanning operations
+- Learn about different malware types
+- Understand detection methods
+- Practice with safe sample files
+
+**Intermediate Level:**
+- Explore behavioral analysis
+- Experiment with detection tuning
+- Learn quarantine operations
+- Understand false positive management
+
+**Advanced Level:**
+- Custom signature creation
+- Performance optimization
+- Batch processing techniques
+- Integration with other security tools
+
+### Common Learning Scenarios
+
+**Scenario 1: Understanding Detection Methods**
+```bash
+# Run detection comparison
+python main.py examples scenarios
+
+# View detection details
+python main.py examples intermediate
+```
+
+**Scenario 2: Tuning Detection Sensitivity**
+```bash
+# Test with different sensitivity levels
+python -c "
+from core.config import ConfigManager
+config = ConfigManager().get_config()
+config.signature_sensitivity = 5  # More sensitive
+# Test scanning with new settings
+"
+```
+
+**Scenario 3: Analyzing False Positives**
+```bash
+# Scan known clean files
+python main.py examples advanced
+
+# Review detection results and adjust settings
+```
+
+### Interactive Learning Features
+
+**Help System Navigation:**
+- Use number keys to navigate menus
+- Type 'back' to return to previous menu
+- Type 'exit' to quit help system
+- Use 'search <term>' to find specific topics
+
+**Workflow Interruption:**
+- Press Ctrl+C to pause workflows
+- Workflows save progress automatically
+- Resume with the same command
+
+**Progress Tracking:**
+- Workflows track completion status
+- View progress with status commands
+- Reset progress if needed
+
+## 🔧 Advanced Troubleshooting
+
+### System Integration Issues
+
+**Antivirus Software Conflicts:**
+```bash
+# Check for real-time protection interference
+# Add tool directory to antivirus exclusions
+# Temporarily disable real-time scanning for testing
+```
+
+**Network and Firewall Issues:**
+```bash
+# If using network features (future versions)
+# Check firewall settings
+# Verify network connectivity
+```
+
+### Development and Customization
+
+**Adding Custom Signatures:**
+```python
+# Example custom signature addition
+from core.signature_manager import SignatureManager
+manager = SignatureManager()
+manager.add_custom_signature("custom_threat", pattern_data)
+```
+
+**Performance Profiling:**
+```python
+# Profile scanning performance
+import cProfile
+cProfile.run('scan_operation()', 'profile_results.prof')
+```
+
+### Database Management
+
+**Advanced Database Operations:**
+```bash
+# Export sample database
+python -c "
+from samples.sample_manager import SampleManager
+manager = SampleManager()
+manager.export_database('backup.json')
+"
+
+# Import sample database
+python -c "
+from samples.sample_manager import SampleManager
+manager = SampleManager()
+manager.import_database('backup.json')
+"
+```
+
+**Database Optimization:**
+```bash
+# Optimize database performance
+python -c "
+from core.sample_initialization import SampleInitializationManager
+from core.config import ConfigManager
+config = ConfigManager().get_config()
+manager = SampleInitializationManager(config)
+manager.optimize_databases()
+"
+```
+
+### Logging and Monitoring
+
+**Enhanced Logging:**
+```json
+{
+  "log_level": "DEBUG",
+  "log_file": "antivirus_debug.log",
+  "enable_performance_logging": true
+}
+```
+
+**Real-time Monitoring:**
+```bash
+# Monitor log file in real-time
+tail -f antivirus.log
+
+# Filter for specific events
+grep -i "error\|warning" antivirus.log
+```
+
+## 📊 Performance Optimization Guide
+
+### Memory Usage Optimization
+
+**Large File Handling:**
+```json
+{
+  "max_file_size_mb": 10,
+  "enable_streaming_analysis": true,
+  "memory_limit_mb": 512
+}
+```
+
+**Batch Processing:**
+```python
+# Process files in smaller batches
+batch_size = 50
+for i in range(0, len(files), batch_size):
+    batch = files[i:i+batch_size]
+    process_batch(batch)
+```
+
+### CPU Usage Optimization
+
+**Multi-threading Configuration:**
+```json
+{
+  "max_worker_threads": 4,
+  "enable_parallel_scanning": true,
+  "thread_pool_size": 8
+}
+```
+
+**Detection Algorithm Tuning:**
+```json
+{
+  "signature_sensitivity": 6,
+  "behavioral_threshold": 5,
+  "entropy_threshold": 6.5,
+  "enable_heuristic_analysis": false
+}
+```
+
+### Disk I/O Optimization
+
+**Temporary File Management:**
+```json
+{
+  "temp_directory": "/tmp/antivirus",
+  "cleanup_temp_files": true,
+  "max_temp_file_age_hours": 24
+}
+```
+
+**Database Caching:**
+```json
+{
+  "enable_database_caching": true,
+  "cache_size_mb": 128,
+  "cache_expiry_minutes": 60
+}
+```
+
+## 🚨 Emergency Recovery Procedures
+
+### Complete System Recovery
+
+**Full Reset (Nuclear Option):**
+```bash
+# Backup important data first
+cp config.json config.json.emergency_backup
+cp -r samples/ samples_backup/
+
+# Complete reset
+rm
