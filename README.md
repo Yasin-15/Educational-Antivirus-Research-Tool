@@ -103,6 +103,34 @@ python main.py config show
 python main.py config show signature_sensitivity
 ```
 
+### Educational Workflows
+```bash
+# Run beginner educational workflow
+python main.py examples beginner
+
+# Run intermediate workflow
+python main.py examples intermediate
+
+# Run advanced workflow
+python main.py examples advanced
+
+# Demonstrate scanning scenarios
+python main.py examples scenarios
+
+# Interactive help system
+python main.py help-system
+```
+
+### Usage Examples
+```bash
+# View all usage examples
+python examples/usage_examples.py
+
+# View specific example
+python examples/usage_examples.py basic_setup
+python examples/usage_examples.py scanning_operations
+```
+
 ## ⚙️ Configuration
 
 The tool uses a JSON configuration file with the following key settings:
@@ -163,6 +191,36 @@ The tool uses a JSON configuration file with the following key settings:
 1. **Hands-on Experience**: Work with real antivirus concepts in a safe environment
 2. **Report Analysis**: Learn to interpret security scan results
 3. **Threat Intelligence**: Understand malware classification and characteristics
+
+## 🎓 Educational Workflows
+
+The tool includes comprehensive educational workflows designed for progressive learning:
+
+### Beginner Workflow
+- Introduction to malware detection concepts
+- Understanding signature-based vs behavioral analysis
+- Hands-on experience with test samples
+- Basic scanning operations
+
+### Intermediate Workflow
+- Advanced analysis techniques
+- Behavioral analysis deep dive
+- False positive understanding
+- Quarantine system management
+- Security report analysis
+
+### Advanced Workflow
+- Malware family classification
+- Evasion technique analysis
+- Multi-stage malware concepts
+- Research methodology
+- Custom detection rule creation
+
+### Interactive Learning Features
+- Step-by-step guided tutorials
+- Hands-on demonstrations with safe samples
+- Comprehensive explanations of detection methods
+- Real-time feedback and progress tracking
 
 ## 🛡️ Safety Features
 
