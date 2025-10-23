@@ -484,6 +484,55 @@ class UserGuidanceManager:
                     'High memory usage: Process files in batches',
                     'Disk space issues: Clean up temporary files'
                 ]
+            },
+            'quarantine_issues': {
+                'title': 'Quarantine Operations',
+                'description': 'Troubleshooting quarantine functionality',
+                'steps': [
+                    'Verify quarantine directory exists and is writable',
+                    'Check file permissions on quarantine directory',
+                    'Ensure adequate disk space for quarantine operations',
+                    'Test quarantine and restore operations',
+                    'Review quarantine logs for errors'
+                ],
+                'common_issues': [
+                    'Cannot quarantine files: Check directory permissions',
+                    'Restore fails: Verify original file locations',
+                    'Quarantine directory full: Clean up old quarantined files'
+                ]
+            },
+            'detection_tuning': {
+                'title': 'Detection Sensitivity Tuning',
+                'description': 'Optimizing detection accuracy',
+                'steps': [
+                    'Start with default sensitivity settings',
+                    'Test with known malware samples',
+                    'Adjust signature_sensitivity for false positives',
+                    'Tune behavioral_threshold for behavioral analysis',
+                    'Update entropy_threshold for packed files',
+                    'Review and update suspicious file extensions'
+                ],
+                'common_issues': [
+                    'Too many false positives: Increase sensitivity thresholds',
+                    'Missing detections: Lower sensitivity thresholds',
+                    'Slow performance: Reduce detection complexity'
+                ]
+            },
+            'educational_workflows': {
+                'title': 'Using Educational Workflows',
+                'description': 'Getting started with learning workflows',
+                'steps': [
+                    'Initialize sample databases first',
+                    'Start with beginner workflow',
+                    'Progress through intermediate scenarios',
+                    'Experiment with advanced features',
+                    'Use interactive help system for guidance'
+                ],
+                'common_issues': [
+                    'Workflows not working: Ensure databases are initialized',
+                    'Missing samples: Run init-samples command',
+                    'Permission errors: Run with appropriate privileges'
+                ]
             }
         }
 

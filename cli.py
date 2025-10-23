@@ -1277,4 +1277,61 @@ Examples:
                     "Run with administrator/elevated privileges",
                     "Check file and directory permissions",
                     "Configure antivirus exclusions",
-      
+                    "Close other applications using the files"
+                ]
+            },
+            "FileNotFoundError": {
+                "description": "Required file or directory not found",
+                "solutions": [
+                    "Verify file paths are correct",
+                    "Run initialization: python main.py init-samples",
+                    "Check if files were moved or deleted",
+                    "Restore from backup if available"
+                ]
+            },
+            "DatabaseError": {
+                "description": "Database operation failed",
+                "solutions": [
+                    "Repair databases: python main.py init-samples --repair",
+                    "Reset databases: python main.py init-samples --force-reset",
+                    "Check disk space and permissions",
+                    "Ensure no other instances are running"
+                ]
+            },
+            "ConfigurationError": {
+                "description": "Configuration loading or validation failed",
+                "solutions": [
+                    "Validate JSON syntax in config.json",
+                    "Reset configuration by deleting config.json",
+                    "Check file permissions on config.json",
+                    "Restore from backup configuration"
+                ]
+            }
+        }
+        
+        for error_type, info in common_errors.items():
+            print(f"\n{error_type}:")
+            print(f"  Description: {info['description']}")
+            print("  Solutions:")
+            for solution in info['solutions']:
+                print(f"    • {solution}")
+        
+        print("\nFor more detailed help:")
+        print("• Run: python main.py help-system")
+        print("• Check: docs/troubleshooting.md")
+        print("• Use specific troubleshooting options in this menu")
+        
+        return 0
+
+
+def main(args=None):
+    """Main entry point for the CLI."""
+    if args is None:
+        args = sys.argv[1:]
+    
+    cli = AntivirusCLI()
+    return cli.run(args)
+
+
+if __name__ == '__main__':
+    sys.exit(main())
